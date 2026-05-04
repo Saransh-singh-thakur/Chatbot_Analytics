@@ -55,6 +55,4 @@ python3 main.py
 - **`nlp_customer_support_classification.csv`**: Primary source for NLP logic and sentiment benchmarking.
 - **`customer_support_tickets.csv`**: Used for generating Business EDA, intent distribution, and trend charts.
 
-## 👤 Author
-**Senior Data Engineer & NLP Specialist**
-*Chatbot Analytics Project*
+
