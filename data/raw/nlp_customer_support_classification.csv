@@ -1,0 +1,801 @@
+message_id,text,intent_label,sentiment,urgency_level,classification_confidence,channel,language,word_count,response_time_hours,is_resolved,csat_score
+MSG-1000,Switched to your E-Reader Glow from a competitor and couldn't be happier.,feedback_positive,positive,low,0.811,social_media,de,12,46.3,True,5
+MSG-1001,I need to change the shipping address for my Smart Thermostat order.,request,neutral,high,0.934,live_chat,en,12,63.8,True,4
+MSG-1002,The Robot Vacuum X overheats when running MusicStream for more than 17 minutes.,technical_issue,negative,high,0.794,email,es,13,57.6,False,
+MSG-1003,I need an invoice for my Portable Monitor purchase of $523.00.,request,neutral,medium,0.916,social_media,en,11,5.8,True,4
+MSG-1004,Your FitTrack AI team was incredibly helpful with my AirBuds Max setup.,feedback_positive,positive,low,0.841,phone,es,12,52.4,True,5
+MSG-1005,The CloudCam 360 overheats when running CloudSync for more than 43 minutes.,technical_issue,negative,critical,0.759,live_chat,en,12,43.8,False,
+MSG-1006,I was charged $407.00 twice for the same AirBuds Max. Fix this immediately.,complaint,negative,high,0.976,live_chat,ar,13,26.8,True,3
+MSG-1007,How do I track my PowerBank Titan order placed 42 days ago?,inquiry,neutral,low,0.86,live_chat,ar,12,65.8,True,4
+MSG-1008,Been a loyal customer for 45 years. FitBand Ultra quality never disappoints.,feedback_positive,positive,low,0.842,live_chat,en,12,64.7,True,5
+MSG-1009,Your FitTrack AI has been down for 36 hours and I can't access my account.,complaint,negative,high,0.857,live_chat,es,15,8.8,True,2
+MSG-1010,What's the warranty period for the SmartWatch Pro?,inquiry,neutral,low,0.738,in_app,en,8,28.7,False,
+MSG-1011,The Smart Thermostat overheats when running SecureNet VPN for more than 5 minutes.,technical_issue,negative,high,0.904,phone,ar,13,24.9,True,2
+MSG-1012,Transfer my CloudSync subscription to a different email address.,request,neutral,medium,0.813,social_media,en,9,67.8,True,3
+MSG-1013,Switched to your VR Headset Plus from a competitor and couldn't be happier.,feedback_positive,positive,low,0.893,email,de,13,42.7,True,5
+MSG-1014,Is E-Reader Glow eligible for the current promotion?,inquiry,neutral,low,0.976,email,en,8,55.5,True,4
+MSG-1015,The DroneFlyer Mini overheats when running CloudSync for more than 57 minutes.,technical_issue,negative,critical,0.786,social_media,ar,12,58.1,False,
+MSG-1016,Been a loyal customer for 29 years. AirBuds Max quality never disappoints.,feedback_positive,positive,low,0.759,social_media,pt,12,62.0,True,5
+MSG-1017,Your FitTrack AI app makes managing my HomeHub Speaker so easy.,feedback_positive,positive,low,0.841,email,en,11,10.2,True,4
+MSG-1018,Your GamePass Pro app makes managing my Robot Vacuum X so easy.,feedback_positive,positive,low,0.926,social_media,en,12,35.9,True,5
+MSG-1019,Please send me a replacement LaptopAir M3 in Arctic White.,request,neutral,medium,0.733,in_app,es,10,20.3,False,
+MSG-1020,The new SmartWatch Pro update is fantastic. Love the improvements.,feedback_positive,positive,low,0.828,social_media,en,10,41.1,True,5
+MSG-1021,The new CloudCam 360 update is fantastic. Love the improvements.,feedback_positive,positive,low,0.755,in_app,en,10,7.1,True,5
+MSG-1022,The new PowerBank Titan update is fantastic. Love the improvements.,feedback_positive,positive,low,0.757,email,en,10,24.0,True,5
+MSG-1023,Bluetooth pairing fails between HomeHub Speaker and my other devices.,technical_issue,negative,high,0.92,phone,pt,10,21.6,True,3
+MSG-1024,The LaptopAir M3 microphone doesn't work during GamePass Pro calls.,technical_issue,negative,high,0.878,email,fr,10,57.4,True,3
+MSG-1025,Please send me a replacement VR Headset Plus in Coral Red.,request,neutral,high,0.89,live_chat,de,11,44.7,False,
+MSG-1026,Is the SmartWatch Pro available in Arctic White?,inquiry,neutral,medium,0.906,live_chat,fr,8,29.6,False,
+MSG-1027,I was charged $693.00 twice for the same SmartLock V2. Fix this immediately.,complaint,negative,medium,0.844,social_media,en,13,38.4,True,2
+MSG-1028,Bluetooth pairing fails between FitBand Ultra and my other devices.,technical_issue,negative,high,0.806,live_chat,ar,10,25.2,True,2
+MSG-1029,Terrible customer experience. Waited 58 minutes on hold about my VR Headset Plus.,complaint,negative,medium,0.978,email,en,13,5.8,False,
+MSG-1030,Been a loyal customer for 18 years. FitBand Ultra quality never disappoints.,feedback_positive,positive,low,0.92,email,pt,12,17.3,True,4
+MSG-1031,The Midnight Black screen on my VR Headset Plus keeps flickering randomly.,technical_issue,negative,high,0.98,live_chat,en,12,70.4,True,3
+MSG-1032,I need an invoice for my VR Headset Plus purchase of $307.00.,request,neutral,medium,0.864,in_app,en,12,52.1,True,4
+MSG-1033,I need to change the shipping address for my Portable Monitor order.,request,neutral,medium,0.873,email,en,12,7.8,True,4
+MSG-1034,Transfer my PhotoCloud subscription to a different email address.,request,neutral,medium,0.764,email,es,9,33.1,True,4
+MSG-1035,Your SmartHome Hub has been down for 44 hours and I can't access my account.,complaint,negative,high,0.859,phone,fr,15,6.3,True,2
+MSG-1036,What's the warranty period for the PowerBank Titan?,inquiry,neutral,medium,0.877,social_media,en,8,41.3,True,4
+MSG-1037,Can you tell me if the VR Headset Plus is compatible with TechCare Plus?,inquiry,neutral,low,0.892,social_media,en,14,67.7,True,4
+MSG-1038,How long does shipping take for the LaptopAir M3 to Berlin?,inquiry,neutral,low,0.924,in_app,ar,11,57.8,True,4
+MSG-1039,The SmartLock V2 app crashes every time I open PhotoCloud.,technical_issue,negative,high,0.964,email,de,10,14.6,True,2
+MSG-1040,The new LaptopAir M3 update is fantastic. Love the improvements.,feedback_positive,positive,low,0.842,phone,en,10,37.0,True,5
+MSG-1041,I'm getting error code E43352 when trying to use SmartLock V2.,technical_issue,negative,high,0.74,live_chat,pt,11,30.6,True,3
+MSG-1042,Your Portable Monitor broke after just 19 days of use. Totally unacceptable.,complaint,negative,high,0.988,phone,es,12,27.6,False,
+MSG-1043,Please refund the $895.00 charged for VR Headset Plus order #25549.,request,neutral,medium,0.863,in_app,fr,11,52.4,True,3
+MSG-1044,I've contacted support 35 times about my LaptopAir M3 issue with no resolution.,complaint,negative,medium,0.794,social_media,en,13,67.5,True,1
+MSG-1045,Apply the promo code SAVE14 to my Smart Thermostat order.,request,neutral,medium,0.901,phone,pt,10,62.8,True,3
+MSG-1046,I need an invoice for my FitBand Ultra purchase of $899.00.,request,neutral,medium,0.94,social_media,en,11,52.7,True,4
+MSG-1047,Do you offer a student discount on Portable Monitor?,inquiry,neutral,low,0.958,in_app,pt,9,65.6,False,
+MSG-1048,Bluetooth pairing fails between SmartWatch Pro and my other devices.,technical_issue,negative,high,0.822,live_chat,en,10,54.3,False,
+MSG-1049,Is the CloudCam 360 available in Lavender Purple?,inquiry,neutral,medium,0.756,in_app,de,8,17.6,True,4
+MSG-1050,I ordered a Robot Vacuum X in Arctic White but received it in the wrong color.,complaint,negative,medium,0.883,phone,pt,16,62.9,True,3
+MSG-1051,The Forest Green screen on my LaptopAir M3 keeps flickering randomly.,technical_issue,negative,high,0.967,email,ar,11,50.1,True,3
+MSG-1052,How do I track my PowerBank Titan order placed 30 days ago?,inquiry,neutral,medium,0.958,social_media,de,12,33.6,False,
+MSG-1053,Switched to your PowerBank Titan from a competitor and couldn't be happier.,feedback_positive,positive,low,0.972,social_media,de,12,41.7,True,5
+MSG-1054,The FitBand Ultra exceeded my expectations. Great value for $598.00.,feedback_positive,positive,low,0.926,social_media,en,10,35.2,True,5
+MSG-1055,I need to change the shipping address for my E-Reader Glow order.,request,neutral,medium,0.861,in_app,en,12,60.4,True,3
+MSG-1056,The quality of HomeHub Speaker has gone downhill. Very disappointed.,complaint,negative,high,0.736,phone,es,10,46.0,False,
+MSG-1057,I'd like to cancel my MusicStream subscription effective immediately.,request,neutral,medium,0.984,social_media,de,9,1.3,False,
+MSG-1058,What's the return policy for Portable Monitor purchased 10 days ago?,inquiry,neutral,low,0.792,social_media,es,11,28.6,True,5
+MSG-1059,Apply the promo code SAVE44 to my FitBand Ultra order.,request,neutral,medium,0.829,email,en,10,27.2,False,
+MSG-1060,I've been waiting 32 days for my E-Reader Glow and it still hasn't arrived.,complaint,negative,medium,0.962,in_app,en,14,66.2,True,2
+MSG-1061,Bluetooth pairing fails between CloudCam 360 and my other devices.,technical_issue,negative,critical,0.971,email,en,10,22.7,True,3
+MSG-1062,Can I upgrade my TechCare Plus plan to include Portable Monitor?,inquiry,neutral,medium,0.824,in_app,es,11,53.3,True,4
+MSG-1063,Your TabletX 12 broke after just 22 days of use. Totally unacceptable.,complaint,negative,medium,0.891,social_media,en,12,56.4,False,
+MSG-1064,Can you escalate my PowerBank Titan complaint to a manager?,request,neutral,high,0.8,email,pt,10,17.8,True,3
+MSG-1065,The TabletX 12 exceeded my expectations. Great value for $384.00.,feedback_positive,positive,low,0.817,social_media,ar,10,19.5,True,5
+MSG-1066,I was charged $539.00 twice for the same TabletX 12. Fix this immediately.,complaint,negative,high,0.87,email,es,13,43.0,True,3
+MSG-1067,I've contacted support 47 times about my TabletX 12 issue with no resolution.,complaint,negative,high,0.905,in_app,en,13,12.3,True,2
+MSG-1068,Been a loyal customer for 28 years. HomeHub Speaker quality never disappoints.,feedback_positive,positive,low,0.788,email,es,12,17.8,True,5
+MSG-1069,GPS accuracy on my FitBand Ultra is off by 9 meters.,technical_issue,negative,high,0.937,in_app,fr,11,23.8,True,3
+MSG-1070,Can't connect my CloudCam 360 to WiFi after the latest firmware update.,technical_issue,negative,high,0.799,phone,es,12,50.1,False,
+MSG-1071,The Space Gray screen on my PowerBank Titan keeps flickering randomly.,technical_issue,negative,high,0.88,in_app,en,11,39.3,True,3
+MSG-1072,What's the warranty period for the Smart Thermostat?,inquiry,neutral,medium,0.785,live_chat,en,8,47.5,False,
+MSG-1073,Please refund the $425.00 charged for LaptopAir M3 order #76402.,request,neutral,medium,0.73,phone,de,10,69.7,True,3
+MSG-1074,What payment methods do you accept for HomeHub Speaker?,inquiry,neutral,medium,0.747,email,en,9,16.1,True,5
+MSG-1075,Your GamePass Pro app makes managing my LaptopAir M3 so easy.,feedback_positive,positive,low,0.969,social_media,fr,11,6.3,True,5
+MSG-1076,The Rose Gold PowerBank Titan looks even better in person. Highly recommend.,feedback_positive,positive,low,0.806,phone,ar,12,21.7,True,4
+MSG-1077,Your TechCare Plus has been down for 60 hours and I can't access my account.,complaint,negative,high,0.809,in_app,en,15,30.8,False,
+MSG-1078,Can I upgrade my StreamMax plan to include VR Headset Plus?,inquiry,neutral,low,0.841,in_app,en,11,31.0,True,4
+MSG-1079,Do you offer a student discount on Smart Thermostat?,inquiry,neutral,medium,0.844,social_media,en,9,19.0,False,
+MSG-1080,SecureNet VPN integration with DroneFlyer Mini stopped working yesterday.,technical_issue,negative,high,0.767,phone,pt,9,48.5,True,3
+MSG-1081,The VR Headset Plus app crashes every time I open StreamMax.,technical_issue,negative,high,0.858,social_media,en,11,30.2,True,3
+MSG-1082,Delete my account and all associated PhotoCloud data.,request,neutral,medium,0.758,phone,en,8,22.7,False,
+MSG-1083,I'm getting error code E60324 when trying to use Robot Vacuum X.,technical_issue,negative,critical,0.83,in_app,ar,12,35.5,False,
+MSG-1084,I need to change the shipping address for my AirBuds Max order.,request,neutral,medium,0.865,social_media,en,12,12.2,False,
+MSG-1085,Bluetooth pairing fails between SmartLock V2 and my other devices.,technical_issue,negative,high,0.925,in_app,en,10,31.8,True,3
+MSG-1086,The CloudCam 360 I received is completely different from what was advertised.,complaint,negative,high,0.939,live_chat,en,12,42.4,True,3
+MSG-1087,I need to change the shipping address for my DroneFlyer Mini order.,request,neutral,high,0.881,in_app,en,12,12.2,True,4
+MSG-1088,My Robot Vacuum X battery drains in 9 hours even in standby mode.,technical_issue,negative,high,0.787,live_chat,en,13,51.2,True,3
+MSG-1089,I need to change the shipping address for my DroneFlyer Mini order.,request,neutral,medium,0.922,phone,de,12,50.0,True,5
+MSG-1090,I want to upgrade my DroneFlyer Mini to the premium version.,request,neutral,medium,0.981,phone,en,11,59.4,False,
+MSG-1091,Fastest delivery ever! Got my Robot Vacuum X in just 36 days.,feedback_positive,positive,low,0.732,social_media,en,12,45.1,True,5
+MSG-1092,Your Portable Monitor broke after just 30 days of use. Totally unacceptable.,complaint,negative,high,0.763,live_chat,en,12,67.2,True,1
+MSG-1093,The Ocean Blue AirBuds Max looks even better in person. Highly recommend.,feedback_positive,positive,low,0.72,email,en,12,34.4,True,5
+MSG-1094,The Midnight Black screen on my SmartLock V2 keeps flickering randomly.,technical_issue,negative,high,0.739,live_chat,ar,11,27.6,True,1
+MSG-1095,Fastest delivery ever! Got my Portable Monitor in just 25 days.,feedback_positive,positive,low,0.863,live_chat,en,11,0.7,True,5
+MSG-1096,I want to upgrade my E-Reader Glow to the premium version.,request,neutral,high,0.962,live_chat,en,11,10.2,True,5
+MSG-1097,Your StreamMax app makes managing my PowerBank Titan so easy.,feedback_positive,positive,low,0.915,in_app,pt,10,20.6,True,4
+MSG-1098,Switched to your SmartLock V2 from a competitor and couldn't be happier.,feedback_positive,positive,low,0.854,email,en,12,8.2,True,5
+MSG-1099,The SmartLock V2 app crashes every time I open CloudSync.,technical_issue,negative,critical,0.868,phone,es,10,12.5,False,
+MSG-1100,I've been waiting 17 days for my DroneFlyer Mini and it still hasn't arrived.,complaint,negative,medium,0.89,in_app,en,14,36.1,False,
+MSG-1101,Delete my account and all associated MusicStream data.,request,neutral,high,0.969,email,de,8,70.2,True,4
+MSG-1102,Apply the promo code SAVE45 to my VR Headset Plus order.,request,neutral,medium,0.751,email,fr,11,44.1,True,4
+MSG-1103,What's the return policy for SmartWatch Pro purchased 11 days ago?,inquiry,neutral,low,0.82,social_media,en,11,54.0,True,3
+MSG-1104,Your SecureNet VPN has been down for 34 hours and I can't access my account.,complaint,negative,high,0.843,email,ar,15,26.0,False,
+MSG-1105,Can't connect my PowerBank Titan to WiFi after the latest firmware update.,technical_issue,negative,critical,0.92,email,en,12,0.3,True,2
+MSG-1106,I ordered a PowerBank Titan in Ocean Blue but received it in the wrong color.,complaint,negative,high,0.807,phone,en,15,30.0,True,2
+MSG-1107,Terrible customer experience. Waited 44 minutes on hold about my PowerBank Titan.,complaint,negative,high,0.978,in_app,en,12,5.1,False,
+MSG-1108,The Silver PowerBank Titan looks even better in person. Highly recommend.,feedback_positive,positive,low,0.92,in_app,en,11,17.5,True,5
+MSG-1109,Bluetooth pairing fails between Smart Thermostat and my other devices.,technical_issue,negative,high,0.783,phone,en,10,25.0,True,2
+MSG-1110,The quality of Robot Vacuum X has gone downhill. Very disappointed.,complaint,negative,medium,0.912,email,en,11,6.8,True,3
+MSG-1111,I want to upgrade my LaptopAir M3 to the premium version.,request,neutral,high,0.873,email,pt,11,31.4,True,4
+MSG-1112,The Sunset Orange Robot Vacuum X looks even better in person. Highly recommend.,feedback_positive,positive,low,0.74,social_media,en,13,14.7,True,4
+MSG-1113,What's the return policy for HomeHub Speaker purchased 21 days ago?,inquiry,neutral,medium,0.803,live_chat,ar,11,19.2,True,3
+MSG-1114,Do you offer a student discount on Robot Vacuum X?,inquiry,neutral,low,0.827,live_chat,es,10,3.6,True,4
+MSG-1115,Can you tell me if the TabletX 12 is compatible with PhotoCloud?,inquiry,neutral,medium,0.753,email,en,12,4.5,True,4
+MSG-1116,Can I upgrade my TechCare Plus plan to include PowerBank Titan?,inquiry,neutral,low,0.939,live_chat,ar,11,6.7,True,3
+MSG-1117,I ordered a SmartWatch Pro in Coral Red but received it in the wrong color.,complaint,negative,high,0.767,phone,fr,15,15.5,True,2
+MSG-1118,Been a loyal customer for 40 years. Portable Monitor quality never disappoints.,feedback_positive,positive,low,0.831,social_media,ar,12,39.7,True,4
+MSG-1119,I've contacted support 13 times about my TabletX 12 issue with no resolution.,complaint,negative,high,0.987,in_app,en,13,56.3,True,3
+MSG-1120,Bluetooth pairing fails between PowerBank Titan and my other devices.,technical_issue,negative,high,0.779,social_media,pt,10,64.5,True,1
+MSG-1121,Transfer my GamePass Pro subscription to a different email address.,request,neutral,medium,0.94,social_media,de,10,66.1,True,4
+MSG-1122,The PowerBank Titan overheats when running StreamMax for more than 16 minutes.,technical_issue,negative,critical,0.976,email,es,12,40.6,True,3
+MSG-1123,My HomeHub Speaker battery drains in 6 hours even in standby mode.,technical_issue,negative,high,0.849,email,de,12,24.0,True,2
+MSG-1124,The Portable Monitor exceeded my expectations. Great value for $166.00.,feedback_positive,positive,low,0.979,in_app,es,10,27.0,True,5
+MSG-1125,The PowerBank Titan app crashes every time I open SmartHome Hub.,technical_issue,negative,high,0.911,social_media,en,11,40.5,True,2
+MSG-1126,Can't connect my TabletX 12 to WiFi after the latest firmware update.,technical_issue,negative,high,0.769,in_app,en,12,23.0,True,3
+MSG-1127,I ordered a HomeHub Speaker in Arctic White but received it in the wrong color.,complaint,negative,high,0.841,email,es,15,19.2,True,1
+MSG-1128,The Midnight Black Smart Thermostat looks even better in person. Highly recommend.,feedback_positive,positive,low,0.958,phone,ar,12,25.4,True,5
+MSG-1129,I ordered a Smart Thermostat in Rose Gold but received it in the wrong color.,complaint,negative,medium,0.791,email,es,15,7.6,True,2
+MSG-1130,I need to change the shipping address for my E-Reader Glow order.,request,neutral,medium,0.836,phone,en,12,47.1,False,
+MSG-1131,Can you tell me if the AirBuds Max is compatible with FitTrack AI?,inquiry,neutral,medium,0.784,social_media,en,13,3.7,False,
+MSG-1132,Can you tell me if the PowerBank Titan is compatible with CloudSync?,inquiry,neutral,low,0.776,email,en,12,46.0,True,5
+MSG-1133,I've contacted support 32 times about my Smart Thermostat issue with no resolution.,complaint,negative,high,0.77,in_app,fr,13,63.8,True,2
+MSG-1134,I'd like to cancel my PhotoCloud subscription effective immediately.,request,neutral,medium,0.743,live_chat,en,9,24.8,False,
+MSG-1135,The Sunset Orange screen on my SmartLock V2 keeps flickering randomly.,technical_issue,negative,critical,0.958,phone,pt,11,34.3,True,3
+MSG-1136,My DroneFlyer Mini stopped working after the latest MusicStream update.,complaint,negative,medium,0.982,live_chat,en,10,58.2,True,1
+MSG-1137,Please refund the $657.00 charged for VR Headset Plus order #87994.,request,neutral,high,0.743,social_media,en,11,40.1,True,4
+MSG-1138,Bluetooth pairing fails between Portable Monitor and my other devices.,technical_issue,negative,high,0.873,live_chat,en,10,42.0,True,1
+MSG-1139,The Smart Thermostat app crashes every time I open SmartHome Hub.,technical_issue,negative,high,0.884,phone,pt,11,2.8,True,3
+MSG-1140,Is DroneFlyer Mini eligible for the current promotion?,inquiry,neutral,low,0.962,phone,en,8,1.6,True,4
+MSG-1141,Been a loyal customer for 9 years. Robot Vacuum X quality never disappoints.,feedback_positive,positive,low,0.894,phone,pt,13,13.6,True,5
+MSG-1142,I need an invoice for my Smart Thermostat purchase of $72.00.,request,neutral,medium,0.829,social_media,de,11,56.2,True,4
+MSG-1143,Is the Robot Vacuum X available in Rose Gold?,inquiry,neutral,low,0.819,live_chat,en,9,33.5,False,
+MSG-1144,I've been waiting 39 days for my FitBand Ultra and it still hasn't arrived.,complaint,negative,high,0.813,in_app,es,14,60.3,True,1
+MSG-1145,Absolutely love my new TabletX 12! Best purchase I've made in 55 months.,feedback_positive,positive,low,0.793,live_chat,en,13,29.5,True,4
+MSG-1146,I ordered a Portable Monitor in Ocean Blue but received it in the wrong color.,complaint,negative,medium,0.912,in_app,en,15,51.1,True,3
+MSG-1147,I want to upgrade my LaptopAir M3 to the premium version.,request,neutral,high,0.722,in_app,en,11,72.0,True,4
+MSG-1148,Your TechCare Plus team was incredibly helpful with my LaptopAir M3 setup.,feedback_positive,positive,low,0.76,social_media,en,12,55.1,True,4
+MSG-1149,The VR Headset Plus overheats when running FitTrack AI for more than 47 minutes.,technical_issue,negative,high,0.825,phone,fr,14,2.6,True,2
+MSG-1150,How do I track my VR Headset Plus order placed 33 days ago?,inquiry,neutral,low,0.746,live_chat,en,13,9.3,True,4
+MSG-1151,Your FitTrack AI team was incredibly helpful with my FitBand Ultra setup.,feedback_positive,positive,low,0.878,social_media,en,12,33.4,True,4
+MSG-1152,I'd like to cancel my GamePass Pro subscription effective immediately.,request,neutral,medium,0.863,email,fr,10,29.8,True,4
+MSG-1153,What payment methods do you accept for TabletX 12?,inquiry,neutral,medium,0.805,social_media,en,9,4.3,False,
+MSG-1154,Switched to your Smart Thermostat from a competitor and couldn't be happier.,feedback_positive,positive,low,0.891,in_app,fr,12,29.1,True,5
+MSG-1155,I'd like to cancel my MusicStream subscription effective immediately.,request,neutral,medium,0.903,live_chat,en,9,45.2,True,4
+MSG-1156,The Sunset Orange HomeHub Speaker looks even better in person. Highly recommend.,feedback_positive,positive,low,0.976,email,en,12,32.9,True,5
+MSG-1157,I need to change the shipping address for my PowerBank Titan order.,request,neutral,medium,0.916,live_chat,en,12,9.5,True,4
+MSG-1158,Your CloudSync has been down for 57 hours and I can't access my account.,complaint,negative,high,0.989,email,pt,14,47.7,True,1
+MSG-1159,The quality of LaptopAir M3 has gone downhill. Very disappointed.,complaint,negative,high,0.834,email,en,10,7.4,True,3
+MSG-1160,Can't connect my TabletX 12 to WiFi after the latest firmware update.,technical_issue,negative,high,0.774,email,ar,12,14.5,True,3
+MSG-1161,What payment methods do you accept for E-Reader Glow?,inquiry,neutral,low,0.783,phone,es,9,1.0,True,3
+MSG-1162,Bluetooth pairing fails between HomeHub Speaker and my other devices.,technical_issue,negative,critical,0.987,live_chat,ar,10,21.4,False,
+MSG-1163,Your Robot Vacuum X broke after just 55 days of use. Totally unacceptable.,complaint,negative,medium,0.746,phone,en,13,54.6,True,1
+MSG-1164,How long does shipping take for the PowerBank Titan to London?,inquiry,neutral,medium,0.828,live_chat,en,11,69.3,True,5
+MSG-1165,Delete my account and all associated StreamMax data.,request,neutral,medium,0.85,phone,pt,8,41.0,False,
+MSG-1166,Is TabletX 12 eligible for the current promotion?,inquiry,neutral,medium,0.839,email,fr,8,4.7,True,3
+MSG-1167,GPS accuracy on my E-Reader Glow is off by 43 meters.,technical_issue,negative,critical,0.837,in_app,en,11,52.3,False,
+MSG-1168,Your MusicStream app makes managing my HomeHub Speaker so easy.,feedback_positive,positive,low,0.74,phone,en,10,35.4,True,5
+MSG-1169,The Rose Gold SmartWatch Pro looks even better in person. Highly recommend.,feedback_positive,positive,low,0.84,email,ar,12,41.3,True,4
+MSG-1170,I need an invoice for my PowerBank Titan purchase of $684.00.,request,neutral,high,0.87,phone,en,11,0.1,True,4
+MSG-1171,The FitBand Ultra microphone doesn't work during PhotoCloud calls.,technical_issue,negative,high,0.927,social_media,de,9,43.2,True,3
+MSG-1172,Your Smart Thermostat broke after just 22 days of use. Totally unacceptable.,complaint,negative,high,0.732,social_media,en,12,11.9,True,3
+MSG-1173,I've contacted support 8 times about my DroneFlyer Mini issue with no resolution.,complaint,negative,medium,0.749,live_chat,es,13,29.9,True,3
+MSG-1174,Apply the promo code SAVE1 to my SmartLock V2 order.,request,neutral,high,0.97,in_app,ar,10,56.3,True,4
+MSG-1175,What's the return policy for TabletX 12 purchased 57 days ago?,inquiry,neutral,medium,0.794,in_app,en,11,69.4,True,5
+MSG-1176,How long does shipping take for the TabletX 12 to Mumbai?,inquiry,neutral,low,0.774,in_app,en,11,45.0,True,4
+MSG-1177,How long does shipping take for the SmartLock V2 to Berlin?,inquiry,neutral,medium,0.975,in_app,pt,11,51.2,True,5
+MSG-1178,My AirBuds Max stopped working after the latest CloudSync update.,complaint,negative,medium,0.905,live_chat,en,10,10.6,True,2
+MSG-1179,How do I track my SmartWatch Pro order placed 7 days ago?,inquiry,neutral,low,0.784,in_app,fr,12,56.5,True,3
+MSG-1180,Delete my account and all associated FitTrack AI data.,request,neutral,medium,0.966,phone,en,9,50.8,True,4
+MSG-1181,Do you offer a student discount on LaptopAir M3?,inquiry,neutral,medium,0.795,email,fr,9,19.1,True,4
+MSG-1182,Your StreamMax has been down for 10 hours and I can't access my account.,complaint,negative,high,0.852,in_app,en,14,41.3,True,1
+MSG-1183,The new FitBand Ultra update is fantastic. Love the improvements.,feedback_positive,positive,low,0.829,in_app,de,10,25.2,True,5
+MSG-1184,Fastest delivery ever! Got my PowerBank Titan in just 49 days.,feedback_positive,positive,low,0.901,email,en,11,32.1,True,5
+MSG-1185,Your TechCare Plus has been down for 17 hours and I can't access my account.,complaint,negative,high,0.937,social_media,de,15,32.1,True,2
+MSG-1186,What payment methods do you accept for SmartLock V2?,inquiry,neutral,low,0.901,email,en,9,55.7,False,
+MSG-1187,The SmartLock V2 I received is completely different from what was advertised.,complaint,negative,medium,0.744,social_media,en,12,4.0,True,3
+MSG-1188,Terrible customer experience. Waited 27 minutes on hold about my Robot Vacuum X.,complaint,negative,medium,0.725,phone,es,13,48.5,True,3
+MSG-1189,Terrible customer experience. Waited 60 minutes on hold about my SmartWatch Pro.,complaint,negative,high,0.743,social_media,pt,12,55.1,False,
+MSG-1190,Delete my account and all associated CloudSync data.,request,neutral,medium,0.8,phone,de,8,45.7,True,4
+MSG-1191,My Robot Vacuum X stopped working after the latest MusicStream update.,complaint,negative,high,0.868,phone,de,11,6.2,True,2
+MSG-1192,Can I upgrade my MusicStream plan to include Portable Monitor?,inquiry,neutral,medium,0.769,live_chat,en,10,57.6,True,5
+MSG-1193,The CloudCam 360 app crashes every time I open TechCare Plus.,technical_issue,negative,high,0.901,social_media,en,11,17.0,True,3
+MSG-1194,The PowerBank Titan I received is completely different from what was advertised.,complaint,negative,high,0.818,in_app,pt,12,22.8,False,
+MSG-1195,Can you tell me if the PowerBank Titan is compatible with DataVault?,inquiry,neutral,medium,0.957,live_chat,es,12,33.4,True,4
+MSG-1196,Transfer my StreamMax subscription to a different email address.,request,neutral,medium,0.918,live_chat,en,9,45.2,True,3
+MSG-1197,I'm getting error code E37886 when trying to use Robot Vacuum X.,technical_issue,negative,high,0.867,in_app,en,12,71.9,False,
+MSG-1198,What payment methods do you accept for TabletX 12?,inquiry,neutral,medium,0.744,in_app,de,9,26.3,True,4
+MSG-1199,Can't connect my Smart Thermostat to WiFi after the latest firmware update.,technical_issue,negative,critical,0.974,live_chat,ar,12,3.0,False,
+MSG-1200,What's the return policy for CloudCam 360 purchased 3 days ago?,inquiry,neutral,medium,0.968,phone,ar,11,63.5,True,4
+MSG-1201,My VR Headset Plus stopped working after the latest SmartHome Hub update.,complaint,negative,medium,0.879,phone,es,12,64.7,True,3
+MSG-1202,Your DataVault app makes managing my Portable Monitor so easy.,feedback_positive,positive,low,0.855,in_app,en,10,10.1,True,5
+MSG-1203,What's the return policy for SmartLock V2 purchased 10 days ago?,inquiry,neutral,low,0.832,email,en,11,23.8,True,5
+MSG-1204,I need an invoice for my FitBand Ultra purchase of $868.00.,request,neutral,medium,0.875,email,en,11,11.7,True,4
+MSG-1205,I was charged $628.00 twice for the same CloudCam 360. Fix this immediately.,complaint,negative,high,0.778,social_media,en,13,43.7,False,
+MSG-1206,I need to change the shipping address for my FitBand Ultra order.,request,neutral,medium,0.765,in_app,en,12,49.4,False,
+MSG-1207,GPS accuracy on my AirBuds Max is off by 25 meters.,technical_issue,negative,high,0.905,in_app,de,11,59.5,True,2
+MSG-1208,Apply the promo code SAVE33 to my DroneFlyer Mini order.,request,neutral,high,0.866,live_chat,pt,10,0.2,False,
+MSG-1209,The PowerBank Titan overheats when running CloudSync for more than 28 minutes.,technical_issue,negative,high,0.746,in_app,pt,12,9.7,False,
+MSG-1210,What's the return policy for CloudCam 360 purchased 27 days ago?,inquiry,neutral,low,0.861,email,pt,11,37.5,False,
+MSG-1211,What payment methods do you accept for TabletX 12?,inquiry,neutral,medium,0.872,in_app,fr,9,44.1,False,
+MSG-1212,Can I upgrade my MusicStream plan to include SmartLock V2?,inquiry,neutral,medium,0.876,social_media,en,10,55.8,False,
+MSG-1213,What's the return policy for E-Reader Glow purchased 51 days ago?,inquiry,neutral,low,0.932,in_app,fr,11,57.7,True,4
+MSG-1214,I'd like to cancel my TechCare Plus subscription effective immediately.,request,neutral,medium,0.78,email,en,10,5.9,True,5
+MSG-1215,Apply the promo code SAVE46 to my VR Headset Plus order.,request,neutral,medium,0.723,phone,ar,11,61.3,True,4
+MSG-1216,Terrible customer experience. Waited 40 minutes on hold about my SmartLock V2.,complaint,negative,high,0.743,email,en,12,19.9,False,
+MSG-1217,Your GamePass Pro app makes managing my TabletX 12 so easy.,feedback_positive,positive,low,0.967,social_media,de,11,25.1,True,5
+MSG-1218,Is FitBand Ultra eligible for the current promotion?,inquiry,neutral,medium,0.871,in_app,en,8,36.3,True,3
+MSG-1219,My Portable Monitor battery drains in 17 hours even in standby mode.,technical_issue,negative,critical,0.925,phone,en,12,69.2,False,
+MSG-1220,Apply the promo code SAVE8 to my Robot Vacuum X order.,request,neutral,medium,0.936,live_chat,en,11,29.8,True,3
+MSG-1221,Switched to your CloudCam 360 from a competitor and couldn't be happier.,feedback_positive,positive,low,0.805,live_chat,ar,12,15.8,True,5
+MSG-1222,Is the LaptopAir M3 available in Rose Gold?,inquiry,neutral,low,0.946,live_chat,en,8,25.7,True,3
+MSG-1223,I ordered a DroneFlyer Mini in Silver but received it in the wrong color.,complaint,negative,high,0.962,social_media,ar,14,63.4,True,3
+MSG-1224,How do I track my CloudCam 360 order placed 49 days ago?,inquiry,neutral,low,0.974,phone,ar,12,2.4,True,5
+MSG-1225,What's the warranty period for the AirBuds Max?,inquiry,neutral,low,0.877,live_chat,fr,8,23.5,True,4
+MSG-1226,My FitBand Ultra battery drains in 40 hours even in standby mode.,technical_issue,negative,high,0.833,phone,en,12,54.2,True,3
+MSG-1227,Been a loyal customer for 37 years. HomeHub Speaker quality never disappoints.,feedback_positive,positive,low,0.87,social_media,en,12,61.7,True,5
+MSG-1228,How long does shipping take for the LaptopAir M3 to Dubai?,inquiry,neutral,low,0.932,in_app,es,11,21.7,True,5
+MSG-1229,I was charged $874.00 twice for the same SmartWatch Pro. Fix this immediately.,complaint,negative,high,0.817,social_media,en,13,40.4,True,2
+MSG-1230,The quality of AirBuds Max has gone downhill. Very disappointed.,complaint,negative,high,0.984,in_app,en,10,20.6,True,3
+MSG-1231,I need an invoice for my Portable Monitor purchase of $308.00.,request,neutral,medium,0.834,live_chat,es,11,44.1,False,
+MSG-1232,Your HomeHub Speaker broke after just 21 days of use. Totally unacceptable.,complaint,negative,high,0.96,phone,en,12,56.3,True,3
+MSG-1233,Bluetooth pairing fails between TabletX 12 and my other devices.,technical_issue,negative,critical,0.777,social_media,en,10,28.6,True,1
+MSG-1234,Transfer my CloudSync subscription to a different email address.,request,neutral,high,0.743,in_app,en,9,67.1,False,
+MSG-1235,Switched to your FitBand Ultra from a competitor and couldn't be happier.,feedback_positive,positive,low,0.899,email,en,12,62.0,True,5
+MSG-1236,I need an invoice for my Robot Vacuum X purchase of $470.00.,request,neutral,medium,0.843,in_app,pt,12,53.9,False,
+MSG-1237,The CloudCam 360 microphone doesn't work during FitTrack AI calls.,technical_issue,negative,high,0.79,social_media,fr,10,21.9,True,3
+MSG-1238,What payment methods do you accept for CloudCam 360?,inquiry,neutral,medium,0.935,email,fr,9,43.0,True,4
+MSG-1239,Can I upgrade my MusicStream plan to include Portable Monitor?,inquiry,neutral,medium,0.791,phone,en,10,30.5,True,4
+MSG-1240,The new Smart Thermostat update is fantastic. Love the improvements.,feedback_positive,positive,low,0.892,social_media,en,10,44.5,True,5
+MSG-1241,Bluetooth pairing fails between FitBand Ultra and my other devices.,technical_issue,negative,high,0.793,email,en,10,51.5,True,2
+MSG-1242,I was charged $445.00 twice for the same SmartWatch Pro. Fix this immediately.,complaint,negative,medium,0.809,phone,en,13,60.8,True,1
+MSG-1243,Your MusicStream app makes managing my AirBuds Max so easy.,feedback_positive,positive,low,0.824,email,en,10,70.2,True,5
+MSG-1244,The LaptopAir M3 I received is completely different from what was advertised.,complaint,negative,high,0.763,social_media,es,12,52.5,True,2
+MSG-1245,Please send me a replacement FitBand Ultra in Midnight Black.,request,neutral,medium,0.724,phone,es,10,57.2,True,5
+MSG-1246,Can you tell me if the SmartWatch Pro is compatible with GamePass Pro?,inquiry,neutral,low,0.855,live_chat,en,13,49.4,True,3
+MSG-1247,Your StreamMax has been down for 51 hours and I can't access my account.,complaint,negative,high,0.933,social_media,de,14,54.5,False,
+MSG-1248,Can you tell me if the E-Reader Glow is compatible with SecureNet VPN?,inquiry,neutral,medium,0.8,phone,de,13,50.2,True,4
+MSG-1249,PhotoCloud integration with PowerBank Titan stopped working yesterday.,technical_issue,negative,high,0.762,email,de,8,21.4,True,3
+MSG-1250,Been a loyal customer for 47 years. SmartWatch Pro quality never disappoints.,feedback_positive,positive,low,0.807,in_app,en,12,4.7,True,5
+MSG-1251,How do I track my VR Headset Plus order placed 10 days ago?,inquiry,neutral,medium,0.746,social_media,en,13,47.5,True,4
+MSG-1252,Can you tell me if the FitBand Ultra is compatible with TechCare Plus?,inquiry,neutral,low,0.862,phone,ar,13,50.5,True,3
+MSG-1253,Switched to your DroneFlyer Mini from a competitor and couldn't be happier.,feedback_positive,positive,low,0.936,email,ar,12,4.5,True,5
+MSG-1254,Absolutely love my new Robot Vacuum X! Best purchase I've made in 34 months.,feedback_positive,positive,low,0.746,live_chat,de,14,52.2,True,5
+MSG-1255,Is the SmartLock V2 available in Coral Red?,inquiry,neutral,low,0.921,in_app,fr,8,55.2,True,5
+MSG-1256,Please refund the $531.00 charged for HomeHub Speaker order #96184.,request,neutral,medium,0.84,in_app,pt,10,25.4,True,4
+MSG-1257,Your SecureNet VPN app makes managing my Smart Thermostat so easy.,feedback_positive,positive,low,0.97,phone,de,11,18.4,True,5
+MSG-1258,Delete my account and all associated CloudSync data.,request,neutral,high,0.986,email,en,8,15.5,True,3
+MSG-1259,The new SmartLock V2 update is fantastic. Love the improvements.,feedback_positive,positive,low,0.762,phone,es,10,19.2,True,5
+MSG-1260,Do you offer a student discount on Smart Thermostat?,inquiry,neutral,low,0.934,email,es,9,12.5,True,4
+MSG-1261,Terrible customer experience. Waited 59 minutes on hold about my TabletX 12.,complaint,negative,medium,0.955,phone,en,12,16.4,True,3
+MSG-1262,I've contacted support 35 times about my SmartLock V2 issue with no resolution.,complaint,negative,high,0.734,live_chat,en,13,52.7,False,
+MSG-1263,Apply the promo code SAVE15 to my DroneFlyer Mini order.,request,neutral,medium,0.742,live_chat,es,10,41.2,True,5
+MSG-1264,Your MusicStream team was incredibly helpful with my TabletX 12 setup.,feedback_positive,positive,low,0.852,in_app,en,11,47.0,True,5
+MSG-1265,GPS accuracy on my E-Reader Glow is off by 16 meters.,technical_issue,negative,high,0.75,in_app,en,11,29.8,True,2
+MSG-1266,What payment methods do you accept for PowerBank Titan?,inquiry,neutral,low,0.759,phone,pt,9,3.3,True,4
+MSG-1267,The Smart Thermostat exceeded my expectations. Great value for $70.00.,feedback_positive,positive,low,0.813,social_media,en,10,57.9,True,5
+MSG-1268,I need an invoice for my SmartWatch Pro purchase of $565.00.,request,neutral,medium,0.868,in_app,en,11,44.9,True,3
+MSG-1269,Apply the promo code SAVE17 to my Portable Monitor order.,request,neutral,medium,0.734,in_app,en,10,47.2,True,3
+MSG-1270,Please send me a replacement VR Headset Plus in Arctic White.,request,neutral,high,0.964,in_app,en,11,34.9,True,4
+MSG-1271,How do I track my LaptopAir M3 order placed 3 days ago?,inquiry,neutral,medium,0.921,phone,fr,12,1.4,True,4
+MSG-1272,Switched to your SmartLock V2 from a competitor and couldn't be happier.,feedback_positive,positive,low,0.761,social_media,en,12,64.6,True,5
+MSG-1273,The quality of SmartLock V2 has gone downhill. Very disappointed.,complaint,negative,medium,0.809,social_media,pt,10,39.1,True,2
+MSG-1274,The VR Headset Plus microphone doesn't work during DataVault calls.,technical_issue,negative,high,0.968,live_chat,pt,10,22.9,True,2
+MSG-1275,The E-Reader Glow exceeded my expectations. Great value for $438.00.,feedback_positive,positive,low,0.93,social_media,en,10,7.8,True,5
+MSG-1276,Terrible customer experience. Waited 37 minutes on hold about my DroneFlyer Mini.,complaint,negative,high,0.817,live_chat,en,12,49.6,False,
+MSG-1277,How do I track my Robot Vacuum X order placed 46 days ago?,inquiry,neutral,medium,0.757,phone,ar,13,14.0,True,5
+MSG-1278,I've contacted support 49 times about my TabletX 12 issue with no resolution.,complaint,negative,medium,0.906,in_app,ar,13,62.4,True,3
+MSG-1279,I'd like to cancel my SecureNet VPN subscription effective immediately.,request,neutral,medium,0.861,in_app,en,10,32.6,True,4
+MSG-1280,The TabletX 12 microphone doesn't work during CloudSync calls.,technical_issue,negative,high,0.959,phone,fr,9,55.7,True,3
+MSG-1281,Can I upgrade my GamePass Pro plan to include CloudCam 360?,inquiry,neutral,low,0.915,phone,en,11,8.2,True,5
+MSG-1282,I want to upgrade my LaptopAir M3 to the premium version.,request,neutral,medium,0.907,social_media,es,11,65.3,True,3
+MSG-1283,Your E-Reader Glow broke after just 6 days of use. Totally unacceptable.,complaint,negative,high,0.869,live_chat,fr,12,3.3,True,2
+MSG-1284,Can't connect my HomeHub Speaker to WiFi after the latest firmware update.,technical_issue,negative,high,0.798,social_media,ar,12,13.1,True,2
+MSG-1285,Terrible customer experience. Waited 30 minutes on hold about my Smart Thermostat.,complaint,negative,high,0.784,in_app,ar,12,42.4,False,
+MSG-1286,Delete my account and all associated TechCare Plus data.,request,neutral,high,0.941,in_app,de,9,15.0,True,4
+MSG-1287,Your StreamMax has been down for 43 hours and I can't access my account.,complaint,negative,medium,0.749,email,en,14,71.5,True,2
+MSG-1288,GPS accuracy on my DroneFlyer Mini is off by 30 meters.,technical_issue,negative,high,0.807,email,en,11,64.6,True,3
+MSG-1289,The CloudCam 360 app crashes every time I open PhotoCloud.,technical_issue,negative,critical,0.777,phone,de,10,15.1,True,1
+MSG-1290,The AirBuds Max microphone doesn't work during PhotoCloud calls.,technical_issue,negative,critical,0.862,social_media,en,9,71.6,True,2
+MSG-1291,GPS accuracy on my LaptopAir M3 is off by 32 meters.,technical_issue,negative,high,0.72,social_media,en,11,1.8,True,2
+MSG-1292,The TabletX 12 overheats when running CloudSync for more than 23 minutes.,technical_issue,negative,critical,0.789,live_chat,en,12,5.0,True,3
+MSG-1293,CloudSync integration with Smart Thermostat stopped working yesterday.,technical_issue,negative,critical,0.979,in_app,pt,8,59.9,True,2
+MSG-1294,Been a loyal customer for 42 years. Portable Monitor quality never disappoints.,feedback_positive,positive,low,0.962,phone,de,12,33.4,True,5
+MSG-1295,My CloudCam 360 stopped working after the latest GamePass Pro update.,complaint,negative,high,0.738,social_media,es,11,10.8,True,2
+MSG-1296,Transfer my StreamMax subscription to a different email address.,request,neutral,medium,0.912,social_media,es,9,19.6,True,5
+MSG-1297,What payment methods do you accept for LaptopAir M3?,inquiry,neutral,medium,0.967,email,en,9,32.0,True,5
+MSG-1298,Can't connect my FitBand Ultra to WiFi after the latest firmware update.,technical_issue,negative,high,0.942,live_chat,en,12,67.5,True,2
+MSG-1299,I ordered a TabletX 12 in Arctic White but received it in the wrong color.,complaint,negative,high,0.96,social_media,ar,15,7.5,True,1
+MSG-1300,My VR Headset Plus battery drains in 13 hours even in standby mode.,technical_issue,negative,critical,0.901,social_media,ar,13,19.7,True,2
+MSG-1301,I've been waiting 7 days for my DroneFlyer Mini and it still hasn't arrived.,complaint,negative,high,0.758,social_media,en,14,50.7,True,3
+MSG-1302,How long does shipping take for the AirBuds Max to Mumbai?,inquiry,neutral,low,0.847,live_chat,en,11,48.7,True,5
+MSG-1303,Your TabletX 12 broke after just 46 days of use. Totally unacceptable.,complaint,negative,high,0.816,phone,pt,12,24.0,True,3
+MSG-1304,I ordered a DroneFlyer Mini in Arctic White but received it in the wrong color.,complaint,negative,medium,0.847,social_media,ar,15,68.2,True,3
+MSG-1305,Fastest delivery ever! Got my TabletX 12 in just 51 days.,feedback_positive,positive,low,0.848,email,en,11,25.4,True,5
+MSG-1306,Do you offer a student discount on Smart Thermostat?,inquiry,neutral,medium,0.87,email,es,9,5.2,True,5
+MSG-1307,Apply the promo code SAVE16 to my TabletX 12 order.,request,neutral,high,0.776,email,es,10,50.0,False,
+MSG-1308,Apply the promo code SAVE45 to my Smart Thermostat order.,request,neutral,medium,0.946,email,pt,10,8.3,False,
+MSG-1309,The new AirBuds Max update is fantastic. Love the improvements.,feedback_positive,positive,low,0.928,email,pt,10,27.3,True,5
+MSG-1310,Your FitBand Ultra broke after just 58 days of use. Totally unacceptable.,complaint,negative,high,0.863,live_chat,ar,12,28.1,False,
+MSG-1311,Is the VR Headset Plus available in Space Gray?,inquiry,neutral,low,0.877,social_media,en,9,44.1,False,
+MSG-1312,Do you offer a student discount on SmartWatch Pro?,inquiry,neutral,low,0.784,social_media,en,9,50.6,False,
+MSG-1313,Your SecureNet VPN app makes managing my TabletX 12 so easy.,feedback_positive,positive,low,0.824,live_chat,de,11,66.6,True,5
+MSG-1314,Do you offer a student discount on Robot Vacuum X?,inquiry,neutral,low,0.983,phone,fr,10,9.9,True,5
+MSG-1315,Apply the promo code SAVE12 to my Portable Monitor order.,request,neutral,medium,0.816,phone,fr,10,13.5,True,5
+MSG-1316,How do I track my CloudCam 360 order placed 37 days ago?,inquiry,neutral,low,0.751,phone,es,12,34.7,True,4
+MSG-1317,My LaptopAir M3 battery drains in 34 hours even in standby mode.,technical_issue,negative,high,0.905,phone,en,12,38.9,True,3
+MSG-1318,Your CloudSync has been down for 30 hours and I can't access my account.,complaint,negative,high,0.815,social_media,fr,14,70.4,True,2
+MSG-1319,Can you tell me if the E-Reader Glow is compatible with GamePass Pro?,inquiry,neutral,low,0.766,phone,pt,13,3.8,True,3
+MSG-1320,Been a loyal customer for 5 years. AirBuds Max quality never disappoints.,feedback_positive,positive,low,0.794,in_app,en,12,18.6,True,4
+MSG-1321,Can't connect my Portable Monitor to WiFi after the latest firmware update.,technical_issue,negative,high,0.769,live_chat,ar,12,38.0,True,2
+MSG-1322,I was charged $437.00 twice for the same DroneFlyer Mini. Fix this immediately.,complaint,negative,high,0.777,phone,en,13,52.9,True,1
+MSG-1323,Your StreamMax team was incredibly helpful with my SmartWatch Pro setup.,feedback_positive,positive,low,0.823,in_app,en,11,50.8,True,5
+MSG-1324,The SmartLock V2 exceeded my expectations. Great value for $964.00.,feedback_positive,positive,low,0.904,social_media,de,10,3.0,True,5
+MSG-1325,Apply the promo code SAVE18 to my Portable Monitor order.,request,neutral,medium,0.844,in_app,fr,10,48.7,True,4
+MSG-1326,StreamMax integration with VR Headset Plus stopped working yesterday.,technical_issue,negative,high,0.862,phone,en,9,49.4,True,2
+MSG-1327,The Midnight Black FitBand Ultra looks even better in person. Highly recommend.,feedback_positive,positive,low,0.892,live_chat,pt,12,51.0,True,4
+MSG-1328,Terrible customer experience. Waited 52 minutes on hold about my HomeHub Speaker.,complaint,negative,medium,0.898,social_media,ar,12,5.5,False,
+MSG-1329,Your FitTrack AI app makes managing my E-Reader Glow so easy.,feedback_positive,positive,low,0.81,phone,fr,11,4.4,True,5
+MSG-1330,What's the warranty period for the AirBuds Max?,inquiry,neutral,medium,0.866,email,en,8,31.1,True,5
+MSG-1331,Your TechCare Plus team was incredibly helpful with my SmartWatch Pro setup.,feedback_positive,positive,low,0.896,phone,en,12,0.2,True,4
+MSG-1332,Please send me a replacement HomeHub Speaker in Sunset Orange.,request,neutral,high,0.948,phone,fr,10,56.2,True,4
+MSG-1333,The quality of E-Reader Glow has gone downhill. Very disappointed.,complaint,negative,high,0.735,social_media,fr,10,71.8,True,2
+MSG-1334,PhotoCloud integration with AirBuds Max stopped working yesterday.,technical_issue,negative,high,0.801,phone,en,8,28.1,True,2
+MSG-1335,Please refund the $51.00 charged for Portable Monitor order #13324.,request,neutral,medium,0.852,in_app,en,10,4.6,True,5
+MSG-1336,Bluetooth pairing fails between SmartWatch Pro and my other devices.,technical_issue,negative,high,0.844,live_chat,de,10,48.9,True,3
+MSG-1337,What's the return policy for SmartWatch Pro purchased 42 days ago?,inquiry,neutral,low,0.724,live_chat,en,11,45.6,True,3
+MSG-1338,Apply the promo code SAVE53 to my HomeHub Speaker order.,request,neutral,high,0.78,in_app,pt,10,57.9,False,
+MSG-1339,Your TechCare Plus app makes managing my PowerBank Titan so easy.,feedback_positive,positive,low,0.811,in_app,en,11,8.8,True,5
+MSG-1340,I need to change the shipping address for my E-Reader Glow order.,request,neutral,medium,0.934,live_chat,en,12,45.6,False,
+MSG-1341,Can you tell me if the Portable Monitor is compatible with PhotoCloud?,inquiry,neutral,low,0.832,in_app,en,12,58.2,False,
+MSG-1342,Is the HomeHub Speaker available in Silver?,inquiry,neutral,low,0.769,email,pt,7,36.0,True,4
+MSG-1343,Your MusicStream app makes managing my SmartWatch Pro so easy.,feedback_positive,positive,low,0.857,social_media,de,10,33.5,True,5
+MSG-1344,Absolutely love my new FitBand Ultra! Best purchase I've made in 44 months.,feedback_positive,positive,low,0.735,live_chat,en,13,26.3,True,5
+MSG-1345,Please send me a replacement PowerBank Titan in Lavender Purple.,request,neutral,medium,0.851,live_chat,en,10,8.4,True,5
+MSG-1346,GPS accuracy on my PowerBank Titan is off by 48 meters.,technical_issue,negative,high,0.746,social_media,en,11,53.1,True,3
+MSG-1347,What's the return policy for LaptopAir M3 purchased 4 days ago?,inquiry,neutral,low,0.768,in_app,ar,11,27.0,False,
+MSG-1348,What payment methods do you accept for CloudCam 360?,inquiry,neutral,medium,0.95,live_chat,en,9,33.1,True,4
+MSG-1349,Do you offer a student discount on DroneFlyer Mini?,inquiry,neutral,low,0.951,email,fr,9,35.3,True,5
+MSG-1350,Please send me a replacement SmartWatch Pro in Rose Gold.,request,neutral,medium,0.967,in_app,en,10,64.7,False,
+MSG-1351,I've been waiting 28 days for my LaptopAir M3 and it still hasn't arrived.,complaint,negative,high,0.854,email,ar,14,6.1,True,3
+MSG-1352,How long does shipping take for the PowerBank Titan to New York?,inquiry,neutral,low,0.91,social_media,en,12,61.8,True,5
+MSG-1353,I need to change the shipping address for my Robot Vacuum X order.,request,neutral,high,0.824,email,en,13,49.8,True,4
+MSG-1354,Please send me a replacement E-Reader Glow in Silver.,request,neutral,medium,0.919,in_app,es,9,4.0,True,3
+MSG-1355,The quality of PowerBank Titan has gone downhill. Very disappointed.,complaint,negative,high,0.871,in_app,en,10,55.7,True,2
+MSG-1356,How do I track my AirBuds Max order placed 56 days ago?,inquiry,neutral,medium,0.856,social_media,en,12,30.5,True,3
+MSG-1357,Fastest delivery ever! Got my LaptopAir M3 in just 34 days.,feedback_positive,positive,low,0.963,in_app,de,11,32.6,True,5
+MSG-1358,The Portable Monitor I received is completely different from what was advertised.,complaint,negative,high,0.795,email,en,12,50.2,False,
+MSG-1359,Is the SmartLock V2 available in Space Gray?,inquiry,neutral,medium,0.84,social_media,fr,8,46.5,True,4
+MSG-1360,I've been waiting 42 days for my Robot Vacuum X and it still hasn't arrived.,complaint,negative,medium,0.88,social_media,ar,15,50.2,False,
+MSG-1361,Please send me a replacement DroneFlyer Mini in Space Gray.,request,neutral,high,0.928,social_media,en,10,3.5,True,4
+MSG-1362,I need to change the shipping address for my DroneFlyer Mini order.,request,neutral,medium,0.752,live_chat,en,12,71.6,True,5
+MSG-1363,Fastest delivery ever! Got my HomeHub Speaker in just 46 days.,feedback_positive,positive,low,0.866,social_media,ar,11,11.8,True,5
+MSG-1364,I've been waiting 30 days for my TabletX 12 and it still hasn't arrived.,complaint,negative,high,0.809,in_app,de,14,50.8,False,
+MSG-1365,Great customer support experience regarding my VR Headset Plus. Issue resolved in 47 minutes.,feedback_positive,positive,low,0.963,email,ar,14,10.1,True,4
+MSG-1366,Absolutely love my new TabletX 12! Best purchase I've made in 29 months.,feedback_positive,positive,low,0.878,in_app,en,13,16.1,True,5
+MSG-1367,Can you tell me if the AirBuds Max is compatible with MusicStream?,inquiry,neutral,medium,0.806,live_chat,ar,12,43.6,True,4
+MSG-1368,I need to change the shipping address for my E-Reader Glow order.,request,neutral,high,0.984,social_media,en,12,63.0,True,4
+MSG-1369,Delete my account and all associated PhotoCloud data.,request,neutral,medium,0.743,in_app,pt,8,15.0,False,
+MSG-1370,GamePass Pro integration with AirBuds Max stopped working yesterday.,technical_issue,negative,high,0.87,phone,en,9,51.2,True,2
+MSG-1371,Can I upgrade my MusicStream plan to include CloudCam 360?,inquiry,neutral,medium,0.92,phone,de,10,16.2,True,4
+MSG-1372,The Arctic White VR Headset Plus looks even better in person. Highly recommend.,feedback_positive,positive,low,0.728,phone,en,13,55.1,True,5
+MSG-1373,Terrible customer experience. Waited 31 minutes on hold about my E-Reader Glow.,complaint,negative,high,0.821,phone,en,12,52.8,True,2
+MSG-1374,Is SmartWatch Pro eligible for the current promotion?,inquiry,neutral,low,0.818,email,en,8,45.8,True,3
+MSG-1375,The Silver SmartLock V2 looks even better in person. Highly recommend.,feedback_positive,positive,low,0.807,live_chat,de,11,22.8,True,5
+MSG-1376,Fastest delivery ever! Got my AirBuds Max in just 23 days.,feedback_positive,positive,low,0.821,in_app,en,11,35.0,True,5
+MSG-1377,What's the return policy for FitBand Ultra purchased 15 days ago?,inquiry,neutral,low,0.912,in_app,de,11,50.6,True,5
+MSG-1378,Please refund the $371.00 charged for AirBuds Max order #57522.,request,neutral,medium,0.861,phone,pt,10,69.9,True,4
+MSG-1379,Your FitBand Ultra broke after just 45 days of use. Totally unacceptable.,complaint,negative,high,0.835,live_chat,en,12,55.0,True,1
+MSG-1380,I ordered a Smart Thermostat in Midnight Black but received it in the wrong color.,complaint,negative,high,0.847,in_app,en,15,65.4,True,1
+MSG-1381,Absolutely love my new Smart Thermostat! Best purchase I've made in 59 months.,feedback_positive,positive,low,0.728,live_chat,es,13,10.6,True,5
+MSG-1382,StreamMax integration with PowerBank Titan stopped working yesterday.,technical_issue,negative,critical,0.747,in_app,en,8,41.7,True,3
+MSG-1383,Is the CloudCam 360 available in Silver?,inquiry,neutral,low,0.908,phone,es,7,13.4,True,4
+MSG-1384,Your DataVault app makes managing my TabletX 12 so easy.,feedback_positive,positive,low,0.86,phone,en,10,35.7,True,5
+MSG-1385,The new E-Reader Glow update is fantastic. Love the improvements.,feedback_positive,positive,low,0.919,phone,pt,10,49.5,True,5
+MSG-1386,How do I track my TabletX 12 order placed 13 days ago?,inquiry,neutral,low,0.723,social_media,en,12,48.6,True,5
+MSG-1387,Transfer my TechCare Plus subscription to a different email address.,request,neutral,medium,0.818,live_chat,en,10,14.4,True,5
+MSG-1388,The Robot Vacuum X I received is completely different from what was advertised.,complaint,negative,medium,0.848,phone,es,13,43.5,False,
+MSG-1389,Transfer my StreamMax subscription to a different email address.,request,neutral,high,0.728,live_chat,en,9,53.1,True,5
+MSG-1390,I was charged $325.00 twice for the same TabletX 12. Fix this immediately.,complaint,negative,high,0.927,email,de,13,57.1,True,2
+MSG-1391,I need an invoice for my SmartLock V2 purchase of $843.00.,request,neutral,medium,0.958,email,fr,11,8.7,False,
+MSG-1392,Your PhotoCloud app makes managing my LaptopAir M3 so easy.,feedback_positive,positive,low,0.836,live_chat,ar,10,22.6,True,5
+MSG-1393,Please refund the $567.00 charged for DroneFlyer Mini order #71580.,request,neutral,high,0.857,in_app,en,10,28.2,False,
+MSG-1394,The DroneFlyer Mini overheats when running FitTrack AI for more than 21 minutes.,technical_issue,negative,high,0.814,live_chat,es,13,53.5,True,2
+MSG-1395,Please refund the $374.00 charged for TabletX 12 order #96670.,request,neutral,medium,0.895,live_chat,en,10,42.7,True,4
+MSG-1396,Your CloudSync has been down for 21 hours and I can't access my account.,complaint,negative,medium,0.963,in_app,de,14,19.3,False,
+MSG-1397,I'm getting error code E22809 when trying to use PowerBank Titan.,technical_issue,negative,high,0.811,email,en,11,36.2,True,2
+MSG-1398,My PowerBank Titan battery drains in 32 hours even in standby mode.,technical_issue,negative,high,0.733,social_media,en,12,71.7,False,
+MSG-1399,Is E-Reader Glow eligible for the current promotion?,inquiry,neutral,low,0.848,in_app,de,8,15.2,True,4
+MSG-1400,My TabletX 12 battery drains in 13 hours even in standby mode.,technical_issue,negative,critical,0.901,in_app,ar,12,39.5,True,3
+MSG-1401,Is LaptopAir M3 eligible for the current promotion?,inquiry,neutral,medium,0.861,in_app,en,8,26.3,True,4
+MSG-1402,Do you offer a student discount on Robot Vacuum X?,inquiry,neutral,low,0.942,phone,en,10,46.6,True,4
+MSG-1403,Can you escalate my AirBuds Max complaint to a manager?,request,neutral,high,0.834,in_app,fr,10,65.2,True,4
+MSG-1404,The SmartWatch Pro exceeded my expectations. Great value for $578.00.,feedback_positive,positive,low,0.735,phone,en,10,64.6,True,5
+MSG-1405,My Robot Vacuum X battery drains in 58 hours even in standby mode.,technical_issue,negative,critical,0.75,live_chat,en,13,52.9,True,3
+MSG-1406,The CloudCam 360 microphone doesn't work during PhotoCloud calls.,technical_issue,negative,high,0.938,in_app,fr,9,53.6,False,
+MSG-1407,How long does shipping take for the AirBuds Max to Toronto?,inquiry,neutral,low,0.864,email,ar,11,50.4,True,4
+MSG-1408,The LaptopAir M3 overheats when running DataVault for more than 57 minutes.,technical_issue,negative,high,0.726,social_media,en,12,69.6,True,1
+MSG-1409,Do you offer a student discount on SmartLock V2?,inquiry,neutral,low,0.952,in_app,en,9,28.0,False,
+MSG-1410,The Space Gray AirBuds Max looks even better in person. Highly recommend.,feedback_positive,positive,low,0.933,social_media,fr,12,19.8,True,4
+MSG-1411,I need an invoice for my E-Reader Glow purchase of $447.00.,request,neutral,medium,0.738,social_media,de,11,30.4,True,5
+MSG-1412,I've been waiting 51 days for my VR Headset Plus and it still hasn't arrived.,complaint,negative,medium,0.805,live_chat,en,15,6.0,True,2
+MSG-1413,Can't connect my Robot Vacuum X to WiFi after the latest firmware update.,technical_issue,negative,high,0.767,live_chat,en,13,42.7,True,2
+MSG-1414,What's the return policy for TabletX 12 purchased 26 days ago?,inquiry,neutral,low,0.969,email,en,11,46.6,True,3
+MSG-1415,Can you escalate my CloudCam 360 complaint to a manager?,request,neutral,high,0.979,live_chat,en,10,12.3,True,3
+MSG-1416,The Smart Thermostat overheats when running PhotoCloud for more than 8 minutes.,technical_issue,negative,high,0.823,social_media,ar,12,31.1,True,3
+MSG-1417,Do you offer a student discount on E-Reader Glow?,inquiry,neutral,medium,0.887,social_media,en,9,65.3,True,5
+MSG-1418,I've been waiting 45 days for my LaptopAir M3 and it still hasn't arrived.,complaint,negative,high,0.789,phone,pt,14,7.0,True,1
+MSG-1419,Switched to your LaptopAir M3 from a competitor and couldn't be happier.,feedback_positive,positive,low,0.887,social_media,de,12,21.9,True,5
+MSG-1420,The Portable Monitor exceeded my expectations. Great value for $198.00.,feedback_positive,positive,low,0.957,phone,es,10,9.6,True,5
+MSG-1421,The HomeHub Speaker overheats when running SmartHome Hub for more than 21 minutes.,technical_issue,negative,high,0.796,social_media,fr,13,63.2,True,3
+MSG-1422,Your StreamMax app makes managing my Portable Monitor so easy.,feedback_positive,positive,low,0.771,phone,en,10,4.0,True,5
+MSG-1423,I ordered a CloudCam 360 in Lavender Purple but received it in the wrong color.,complaint,negative,medium,0.851,social_media,de,15,35.5,True,1
+MSG-1424,Your SmartHome Hub team was incredibly helpful with my FitBand Ultra setup.,feedback_positive,positive,low,0.878,in_app,en,12,70.0,True,5
+MSG-1425,Please refund the $351.00 charged for FitBand Ultra order #47261.,request,neutral,medium,0.821,email,fr,10,66.9,True,4
+MSG-1426,Can you tell me if the AirBuds Max is compatible with PhotoCloud?,inquiry,neutral,low,0.982,email,es,12,47.3,False,
+MSG-1427,Great customer support experience regarding my HomeHub Speaker. Issue resolved in 52 minutes.,feedback_positive,positive,low,0.977,email,de,13,27.5,True,5
+MSG-1428,The FitBand Ultra exceeded my expectations. Great value for $887.00.,feedback_positive,positive,low,0.895,phone,en,10,68.7,True,5
+MSG-1429,I've contacted support 58 times about my LaptopAir M3 issue with no resolution.,complaint,negative,medium,0.858,email,es,13,35.3,False,
+MSG-1430,Please send me a replacement DroneFlyer Mini in Sunset Orange.,request,neutral,medium,0.89,live_chat,fr,10,6.8,True,5
+MSG-1431,How long does shipping take for the Portable Monitor to Mumbai?,inquiry,neutral,medium,0.741,phone,fr,11,57.7,True,4
+MSG-1432,Do you offer a student discount on Robot Vacuum X?,inquiry,neutral,low,0.859,email,en,10,36.8,False,
+MSG-1433,I ordered a VR Headset Plus in Space Gray but received it in the wrong color.,complaint,negative,high,0.92,email,en,16,33.4,True,3
+MSG-1434,Your TabletX 12 broke after just 38 days of use. Totally unacceptable.,complaint,negative,medium,0.812,in_app,en,12,66.1,True,2
+MSG-1435,What's the return policy for E-Reader Glow purchased 56 days ago?,inquiry,neutral,low,0.827,email,en,11,1.1,False,
+MSG-1436,Delete my account and all associated GamePass Pro data.,request,neutral,medium,0.744,phone,en,9,9.8,True,3
+MSG-1437,The Robot Vacuum X I received is completely different from what was advertised.,complaint,negative,high,0.772,phone,de,13,21.7,False,
+MSG-1438,What's the warranty period for the TabletX 12?,inquiry,neutral,medium,0.952,phone,en,8,42.2,True,4
+MSG-1439,The SmartWatch Pro overheats when running FitTrack AI for more than 7 minutes.,technical_issue,negative,high,0.917,in_app,pt,13,71.9,True,3
+MSG-1440,I need an invoice for my SmartLock V2 purchase of $709.00.,request,neutral,medium,0.725,email,de,11,41.5,True,4
+MSG-1441,I need an invoice for my AirBuds Max purchase of $370.00.,request,neutral,medium,0.916,live_chat,en,11,33.8,False,
+MSG-1442,How do I track my FitBand Ultra order placed 59 days ago?,inquiry,neutral,medium,0.945,phone,fr,12,48.5,True,5
+MSG-1443,Is FitBand Ultra eligible for the current promotion?,inquiry,neutral,low,0.853,live_chat,pt,8,57.2,False,
+MSG-1444,Switched to your FitBand Ultra from a competitor and couldn't be happier.,feedback_positive,positive,low,0.944,live_chat,en,12,64.4,True,4
+MSG-1445,Your TechCare Plus has been down for 15 hours and I can't access my account.,complaint,negative,medium,0.932,social_media,es,15,55.4,True,2
+MSG-1446,GPS accuracy on my VR Headset Plus is off by 60 meters.,technical_issue,negative,high,0.885,email,pt,12,61.8,True,3
+MSG-1447,My AirBuds Max stopped working after the latest StreamMax update.,complaint,negative,high,0.926,social_media,ar,10,35.9,True,2
+MSG-1448,Fastest delivery ever! Got my Robot Vacuum X in just 55 days.,feedback_positive,positive,low,0.812,live_chat,ar,12,36.4,True,4
+MSG-1449,Fastest delivery ever! Got my E-Reader Glow in just 41 days.,feedback_positive,positive,low,0.757,phone,en,11,30.9,True,5
+MSG-1450,Transfer my FitTrack AI subscription to a different email address.,request,neutral,medium,0.805,email,es,10,70.7,True,5
+MSG-1451,The quality of Smart Thermostat has gone downhill. Very disappointed.,complaint,negative,high,0.833,in_app,en,10,63.8,True,2
+MSG-1452,Absolutely love my new Robot Vacuum X! Best purchase I've made in 40 months.,feedback_positive,positive,low,0.889,live_chat,de,14,44.5,True,5
+MSG-1453,Your DataVault app makes managing my Smart Thermostat so easy.,feedback_positive,positive,low,0.988,live_chat,de,10,20.5,True,4
+MSG-1454,The CloudCam 360 microphone doesn't work during MusicStream calls.,technical_issue,negative,high,0.79,in_app,pt,9,59.9,True,3
+MSG-1455,The E-Reader Glow app crashes every time I open CloudSync.,technical_issue,negative,high,0.841,email,en,10,41.3,True,3
+MSG-1456,Switched to your Smart Thermostat from a competitor and couldn't be happier.,feedback_positive,positive,low,0.797,social_media,en,12,56.5,True,5
+MSG-1457,Transfer my DataVault subscription to a different email address.,request,neutral,high,0.76,phone,en,9,30.7,False,
+MSG-1458,Your SmartWatch Pro broke after just 31 days of use. Totally unacceptable.,complaint,negative,medium,0.879,in_app,fr,12,37.4,False,
+MSG-1459,Great customer support experience regarding my LaptopAir M3. Issue resolved in 45 minutes.,feedback_positive,positive,low,0.754,live_chat,de,13,51.2,True,5
+MSG-1460,The AirBuds Max microphone doesn't work during DataVault calls.,technical_issue,negative,high,0.95,email,pt,9,8.0,True,3
+MSG-1461,Absolutely love my new SmartLock V2! Best purchase I've made in 24 months.,feedback_positive,positive,low,0.934,phone,en,13,10.3,True,5
+MSG-1462,I've contacted support 12 times about my Portable Monitor issue with no resolution.,complaint,negative,high,0.738,in_app,es,13,3.3,False,
+MSG-1463,My DroneFlyer Mini battery drains in 51 hours even in standby mode.,technical_issue,negative,high,0.892,live_chat,de,12,54.9,False,
+MSG-1464,What payment methods do you accept for AirBuds Max?,inquiry,neutral,medium,0.979,in_app,en,9,64.1,True,3
+MSG-1465,Can you tell me if the DroneFlyer Mini is compatible with SmartHome Hub?,inquiry,neutral,low,0.876,in_app,de,13,3.9,True,5
+MSG-1466,I'm getting error code E42150 when trying to use AirBuds Max.,technical_issue,negative,critical,0.743,in_app,ar,11,38.5,True,3
+MSG-1467,I'm getting error code E13153 when trying to use LaptopAir M3.,technical_issue,negative,critical,0.789,social_media,fr,11,8.3,True,3
+MSG-1468,Do you offer a student discount on HomeHub Speaker?,inquiry,neutral,medium,0.886,live_chat,en,9,23.5,True,3
+MSG-1469,Your FitTrack AI app makes managing my AirBuds Max so easy.,feedback_positive,positive,low,0.775,email,en,11,54.2,True,5
+MSG-1470,Transfer my MusicStream subscription to a different email address.,request,neutral,high,0.738,in_app,fr,9,2.2,True,3
+MSG-1471,The new DroneFlyer Mini update is fantastic. Love the improvements.,feedback_positive,positive,low,0.743,phone,ar,10,45.8,True,5
+MSG-1472,What payment methods do you accept for SmartLock V2?,inquiry,neutral,medium,0.939,email,en,9,69.2,True,4
+MSG-1473,I've been waiting 39 days for my Portable Monitor and it still hasn't arrived.,complaint,negative,high,0.947,live_chat,pt,14,20.3,True,3
+MSG-1474,The CloudCam 360 app crashes every time I open TechCare Plus.,technical_issue,negative,high,0.885,phone,en,11,68.9,True,2
+MSG-1475,Been a loyal customer for 22 years. CloudCam 360 quality never disappoints.,feedback_positive,positive,low,0.895,email,en,12,0.2,True,5
+MSG-1476,I've been waiting 36 days for my VR Headset Plus and it still hasn't arrived.,complaint,negative,high,0.865,email,en,15,64.3,False,
+MSG-1477,Your SecureNet VPN has been down for 23 hours and I can't access my account.,complaint,negative,high,0.973,phone,es,15,32.1,True,1
+MSG-1478,Fastest delivery ever! Got my FitBand Ultra in just 41 days.,feedback_positive,positive,low,0.796,social_media,en,11,65.1,True,5
+MSG-1479,The Robot Vacuum X I received is completely different from what was advertised.,complaint,negative,medium,0.772,live_chat,de,13,53.2,True,1
+MSG-1480,Can't connect my E-Reader Glow to WiFi after the latest firmware update.,technical_issue,negative,critical,0.949,social_media,en,12,1.8,True,3
+MSG-1481,I'd like to cancel my CloudSync subscription effective immediately.,request,neutral,medium,0.854,in_app,ar,9,37.3,True,4
+MSG-1482,I've contacted support 29 times about my Portable Monitor issue with no resolution.,complaint,negative,high,0.958,social_media,en,13,58.2,True,3
+MSG-1483,The FitBand Ultra I received is completely different from what was advertised.,complaint,negative,medium,0.88,phone,en,12,45.1,True,2
+MSG-1484,What's the return policy for LaptopAir M3 purchased 54 days ago?,inquiry,neutral,low,0.887,email,pt,11,55.0,False,
+MSG-1485,The AirBuds Max app crashes every time I open CloudSync.,technical_issue,negative,high,0.801,phone,en,10,45.1,True,1
+MSG-1486,My SmartWatch Pro stopped working after the latest SmartHome Hub update.,complaint,negative,high,0.723,in_app,pt,11,27.7,False,
+MSG-1487,GPS accuracy on my AirBuds Max is off by 30 meters.,technical_issue,negative,high,0.723,email,en,11,51.4,True,3
+MSG-1488,How do I track my CloudCam 360 order placed 31 days ago?,inquiry,neutral,low,0.935,live_chat,en,12,4.4,True,5
+MSG-1489,GamePass Pro integration with CloudCam 360 stopped working yesterday.,technical_issue,negative,high,0.799,in_app,es,9,69.9,True,1
+MSG-1490,How do I track my Robot Vacuum X order placed 28 days ago?,inquiry,neutral,low,0.812,live_chat,en,13,48.1,False,
+MSG-1491,GamePass Pro integration with Robot Vacuum X stopped working yesterday.,technical_issue,negative,high,0.843,live_chat,en,10,56.8,True,3
+MSG-1492,Can you tell me if the VR Headset Plus is compatible with DataVault?,inquiry,neutral,medium,0.775,social_media,fr,13,13.3,True,4
+MSG-1493,Your PowerBank Titan broke after just 8 days of use. Totally unacceptable.,complaint,negative,high,0.732,in_app,es,12,2.2,True,2
+MSG-1494,Is the Portable Monitor available in Ocean Blue?,inquiry,neutral,low,0.768,live_chat,en,8,18.9,True,3
+MSG-1495,Can I upgrade my TechCare Plus plan to include VR Headset Plus?,inquiry,neutral,low,0.898,social_media,es,12,67.8,False,
+MSG-1496,Your HomeHub Speaker broke after just 13 days of use. Totally unacceptable.,complaint,negative,medium,0.984,in_app,fr,12,17.7,True,3
+MSG-1497,The Space Gray screen on my Robot Vacuum X keeps flickering randomly.,technical_issue,negative,high,0.95,social_media,en,12,69.7,False,
+MSG-1498,What's the return policy for Smart Thermostat purchased 5 days ago?,inquiry,neutral,low,0.855,in_app,es,11,33.5,True,4
+MSG-1499,Bluetooth pairing fails between E-Reader Glow and my other devices.,technical_issue,negative,critical,0.779,email,en,10,14.7,True,3
+MSG-1500,Do you offer a student discount on TabletX 12?,inquiry,neutral,low,0.923,email,en,9,21.3,True,4
+MSG-1501,I'm getting error code E71282 when trying to use LaptopAir M3.,technical_issue,negative,high,0.937,phone,es,11,22.9,False,
+MSG-1502,I was charged $92.00 twice for the same LaptopAir M3. Fix this immediately.,complaint,negative,medium,0.868,in_app,de,13,5.7,True,2
+MSG-1503,Your AirBuds Max broke after just 35 days of use. Totally unacceptable.,complaint,negative,high,0.802,social_media,en,12,58.7,True,2
+MSG-1504,Can't connect my Robot Vacuum X to WiFi after the latest firmware update.,technical_issue,negative,high,0.942,phone,fr,13,54.6,True,3
+MSG-1505,Can't connect my Robot Vacuum X to WiFi after the latest firmware update.,technical_issue,negative,high,0.932,in_app,pt,13,54.6,False,
+MSG-1506,Your DataVault team was incredibly helpful with my PowerBank Titan setup.,feedback_positive,positive,low,0.728,phone,de,11,10.1,True,5
+MSG-1507,Absolutely love my new LaptopAir M3! Best purchase I've made in 15 months.,feedback_positive,positive,low,0.808,in_app,en,13,1.8,True,4
+MSG-1508,How long does shipping take for the PowerBank Titan to Riyadh?,inquiry,neutral,medium,0.737,live_chat,fr,11,27.9,False,
+MSG-1509,Your PhotoCloud has been down for 6 hours and I can't access my account.,complaint,negative,high,0.943,live_chat,en,14,43.5,True,2
+MSG-1510,What's the return policy for Portable Monitor purchased 14 days ago?,inquiry,neutral,low,0.736,email,ar,11,37.4,True,4
+MSG-1511,Delete my account and all associated TechCare Plus data.,request,neutral,high,0.955,live_chat,en,9,22.4,False,
+MSG-1512,Is DroneFlyer Mini eligible for the current promotion?,inquiry,neutral,low,0.84,email,en,8,59.4,True,4
+MSG-1513,Bluetooth pairing fails between LaptopAir M3 and my other devices.,technical_issue,negative,critical,0.909,phone,es,10,51.3,True,3
+MSG-1514,Can't connect my TabletX 12 to WiFi after the latest firmware update.,technical_issue,negative,high,0.746,live_chat,pt,12,50.3,True,2
+MSG-1515,Do you offer a student discount on Portable Monitor?,inquiry,neutral,medium,0.753,phone,de,9,26.6,True,4
+MSG-1516,I need an invoice for my HomeHub Speaker purchase of $60.00.,request,neutral,medium,0.813,phone,fr,11,28.8,True,5
+MSG-1517,I've been waiting 21 days for my CloudCam 360 and it still hasn't arrived.,complaint,negative,medium,0.868,email,en,14,17.5,False,
+MSG-1518,What's the warranty period for the Robot Vacuum X?,inquiry,neutral,low,0.754,live_chat,en,9,53.4,True,3
+MSG-1519,I've contacted support 12 times about my HomeHub Speaker issue with no resolution.,complaint,negative,high,0.908,live_chat,ar,13,60.2,True,3
+MSG-1520,Been a loyal customer for 4 years. SmartWatch Pro quality never disappoints.,feedback_positive,positive,low,0.774,social_media,en,12,1.3,True,4
+MSG-1521,Your DataVault has been down for 15 hours and I can't access my account.,complaint,negative,high,0.832,live_chat,en,14,7.8,True,2
+MSG-1522,The Silver screen on my DroneFlyer Mini keeps flickering randomly.,technical_issue,negative,high,0.816,live_chat,en,10,12.6,False,
+MSG-1523,Absolutely love my new TabletX 12! Best purchase I've made in 15 months.,feedback_positive,positive,low,0.738,social_media,en,13,15.8,True,5
+MSG-1524,Bluetooth pairing fails between AirBuds Max and my other devices.,technical_issue,negative,high,0.81,phone,en,10,45.8,True,3
+MSG-1525,Your GamePass Pro has been down for 29 hours and I can't access my account.,complaint,negative,high,0.879,live_chat,de,15,71.2,True,1
+MSG-1526,The CloudCam 360 app crashes every time I open DataVault.,technical_issue,negative,high,0.855,live_chat,es,10,14.6,False,
+MSG-1527,Can you tell me if the FitBand Ultra is compatible with GamePass Pro?,inquiry,neutral,medium,0.861,social_media,en,13,70.4,True,3
+MSG-1528,What payment methods do you accept for PowerBank Titan?,inquiry,neutral,low,0.807,phone,de,9,31.9,True,3
+MSG-1529,Please refund the $143.00 charged for FitBand Ultra order #32764.,request,neutral,medium,0.784,in_app,en,10,5.7,False,
+MSG-1530,The E-Reader Glow exceeded my expectations. Great value for $195.00.,feedback_positive,positive,low,0.841,social_media,pt,10,45.8,True,5
+MSG-1531,Please refund the $497.00 charged for PowerBank Titan order #65403.,request,neutral,medium,0.925,in_app,fr,10,59.0,False,
+MSG-1532,The quality of TabletX 12 has gone downhill. Very disappointed.,complaint,negative,high,0.823,live_chat,en,10,22.1,True,3
+MSG-1533,GPS accuracy on my LaptopAir M3 is off by 9 meters.,technical_issue,negative,high,0.723,live_chat,en,11,36.1,True,3
+MSG-1534,Delete my account and all associated FitTrack AI data.,request,neutral,high,0.824,email,en,9,40.8,True,5
+MSG-1535,Fastest delivery ever! Got my SmartLock V2 in just 45 days.,feedback_positive,positive,low,0.849,live_chat,en,11,66.4,True,5
+MSG-1536,I was charged $165.00 twice for the same CloudCam 360. Fix this immediately.,complaint,negative,high,0.723,in_app,en,13,55.5,False,
+MSG-1537,Apply the promo code SAVE59 to my Portable Monitor order.,request,neutral,high,0.855,social_media,en,10,38.4,False,
+MSG-1538,My E-Reader Glow battery drains in 7 hours even in standby mode.,technical_issue,negative,high,0.971,social_media,en,12,28.7,True,1
+MSG-1539,What's the warranty period for the SmartWatch Pro?,inquiry,neutral,medium,0.766,social_media,fr,8,27.0,True,4
+MSG-1540,I need to change the shipping address for my SmartLock V2 order.,request,neutral,medium,0.938,email,en,12,13.9,False,
+MSG-1541,Apply the promo code SAVE19 to my AirBuds Max order.,request,neutral,high,0.728,email,es,10,17.0,False,
+MSG-1542,I've been waiting 43 days for my SmartWatch Pro and it still hasn't arrived.,complaint,negative,high,0.821,in_app,en,14,37.5,True,3
+MSG-1543,I want to upgrade my DroneFlyer Mini to the premium version.,request,neutral,medium,0.822,social_media,fr,11,4.2,True,4
+MSG-1544,I've been waiting 2 days for my LaptopAir M3 and it still hasn't arrived.,complaint,negative,medium,0.842,live_chat,es,14,49.4,False,
+MSG-1545,The VR Headset Plus overheats when running DataVault for more than 41 minutes.,technical_issue,negative,critical,0.982,social_media,en,13,53.0,False,
+MSG-1546,Is LaptopAir M3 eligible for the current promotion?,inquiry,neutral,medium,0.799,email,fr,8,14.1,True,3
+MSG-1547,What's the warranty period for the Smart Thermostat?,inquiry,neutral,low,0.85,phone,en,8,39.0,True,4
+MSG-1548,What's the return policy for AirBuds Max purchased 11 days ago?,inquiry,neutral,medium,0.9,live_chat,en,11,68.5,True,4
+MSG-1549,Bluetooth pairing fails between AirBuds Max and my other devices.,technical_issue,negative,critical,0.966,social_media,fr,10,53.5,False,
+MSG-1550,The Smart Thermostat overheats when running DataVault for more than 17 minutes.,technical_issue,negative,high,0.92,email,es,12,67.5,True,3
+MSG-1551,The Robot Vacuum X exceeded my expectations. Great value for $769.00.,feedback_positive,positive,low,0.771,in_app,de,11,28.0,True,5
+MSG-1552,Fastest delivery ever! Got my Smart Thermostat in just 43 days.,feedback_positive,positive,low,0.865,phone,en,11,33.2,True,5
+MSG-1553,Switched to your LaptopAir M3 from a competitor and couldn't be happier.,feedback_positive,positive,low,0.806,email,pt,12,36.2,True,4
+MSG-1554,Great customer support experience regarding my LaptopAir M3. Issue resolved in 19 minutes.,feedback_positive,positive,low,0.949,live_chat,en,13,67.3,True,5
+MSG-1555,I was charged $849.00 twice for the same Robot Vacuum X. Fix this immediately.,complaint,negative,high,0.834,phone,es,14,34.1,True,3
+MSG-1556,Please refund the $960.00 charged for SmartLock V2 order #81828.,request,neutral,high,0.807,email,en,10,57.0,True,4
+MSG-1557,I need to change the shipping address for my DroneFlyer Mini order.,request,neutral,medium,0.919,live_chat,en,12,0.8,True,4
+MSG-1558,Delete my account and all associated StreamMax data.,request,neutral,medium,0.896,email,de,8,42.8,True,5
+MSG-1559,Can you tell me if the AirBuds Max is compatible with DataVault?,inquiry,neutral,low,0.93,phone,en,12,62.3,False,
+MSG-1560,Been a loyal customer for 8 years. PowerBank Titan quality never disappoints.,feedback_positive,positive,low,0.726,in_app,en,12,41.3,True,5
+MSG-1561,Your GamePass Pro team was incredibly helpful with my Smart Thermostat setup.,feedback_positive,positive,low,0.808,live_chat,en,12,51.4,True,5
+MSG-1562,I'd like to cancel my MusicStream subscription effective immediately.,request,neutral,medium,0.866,in_app,pt,9,59.0,True,4
+MSG-1563,I was charged $583.00 twice for the same Robot Vacuum X. Fix this immediately.,complaint,negative,high,0.875,email,en,14,47.0,True,3
+MSG-1564,Absolutely love my new AirBuds Max! Best purchase I've made in 20 months.,feedback_positive,positive,low,0.801,email,en,13,68.1,True,5
+MSG-1565,Bluetooth pairing fails between HomeHub Speaker and my other devices.,technical_issue,negative,critical,0.777,in_app,de,10,7.2,True,2
+MSG-1566,The HomeHub Speaker I received is completely different from what was advertised.,complaint,negative,high,0.755,social_media,en,12,44.8,True,3
+MSG-1567,The Sunset Orange TabletX 12 looks even better in person. Highly recommend.,feedback_positive,positive,low,0.775,live_chat,de,12,45.4,True,5
+MSG-1568,What payment methods do you accept for DroneFlyer Mini?,inquiry,neutral,medium,0.98,phone,en,9,17.9,True,3
+MSG-1569,The VR Headset Plus app crashes every time I open MusicStream.,technical_issue,negative,high,0.955,social_media,en,11,16.3,True,1
+MSG-1570,Can you escalate my TabletX 12 complaint to a manager?,request,neutral,high,0.814,email,de,10,41.2,True,4
+MSG-1571,The Portable Monitor app crashes every time I open CloudSync.,technical_issue,negative,high,0.881,in_app,de,10,61.2,False,
+MSG-1572,Can't connect my CloudCam 360 to WiFi after the latest firmware update.,technical_issue,negative,high,0.734,in_app,en,12,52.3,True,2
+MSG-1573,The E-Reader Glow overheats when running PhotoCloud for more than 29 minutes.,technical_issue,negative,high,0.861,social_media,fr,12,51.8,True,2
+MSG-1574,I've contacted support 41 times about my TabletX 12 issue with no resolution.,complaint,negative,high,0.736,live_chat,pt,13,53.6,False,
+MSG-1575,The quality of VR Headset Plus has gone downhill. Very disappointed.,complaint,negative,high,0.829,in_app,en,11,44.4,True,3
+MSG-1576,MusicStream integration with FitBand Ultra stopped working yesterday.,technical_issue,negative,critical,0.767,in_app,en,8,26.5,True,3
+MSG-1577,Absolutely love my new TabletX 12! Best purchase I've made in 11 months.,feedback_positive,positive,low,0.95,live_chat,de,13,61.8,True,5
+MSG-1578,Been a loyal customer for 1 years. CloudCam 360 quality never disappoints.,feedback_positive,positive,low,0.943,social_media,de,12,2.6,True,5
+MSG-1579,Bluetooth pairing fails between SmartWatch Pro and my other devices.,technical_issue,negative,high,0.814,email,en,10,52.0,False,
+MSG-1580,Absolutely love my new AirBuds Max! Best purchase I've made in 13 months.,feedback_positive,positive,low,0.967,phone,en,13,0.6,True,5
+MSG-1581,What's the warranty period for the TabletX 12?,inquiry,neutral,medium,0.897,email,ar,8,31.7,True,4
+MSG-1582,I'd like to cancel my DataVault subscription effective immediately.,request,neutral,high,0.963,phone,es,9,11.6,True,5
+MSG-1583,Your PhotoCloud team was incredibly helpful with my TabletX 12 setup.,feedback_positive,positive,low,0.755,in_app,fr,11,69.0,True,4
+MSG-1584,How long does shipping take for the PowerBank Titan to Tokyo?,inquiry,neutral,low,0.984,social_media,fr,11,53.1,False,
+MSG-1585,Please send me a replacement CloudCam 360 in Arctic White.,request,neutral,medium,0.787,in_app,en,10,55.2,True,4
+MSG-1586,Can you escalate my LaptopAir M3 complaint to a manager?,request,neutral,medium,0.753,live_chat,en,10,29.0,True,4
+MSG-1587,Can I upgrade my GamePass Pro plan to include SmartWatch Pro?,inquiry,neutral,medium,0.909,in_app,en,11,70.6,True,4
+MSG-1588,I need an invoice for my SmartWatch Pro purchase of $67.00.,request,neutral,high,0.975,social_media,en,11,51.3,True,4
+MSG-1589,I was charged $777.00 twice for the same SmartWatch Pro. Fix this immediately.,complaint,negative,medium,0.965,phone,en,13,7.3,True,2
+MSG-1590,I want to upgrade my PowerBank Titan to the premium version.,request,neutral,medium,0.817,live_chat,es,11,58.3,True,4
+MSG-1591,Switched to your DroneFlyer Mini from a competitor and couldn't be happier.,feedback_positive,positive,low,0.731,in_app,en,12,69.7,True,5
+MSG-1592,What's the warranty period for the Portable Monitor?,inquiry,neutral,low,0.864,phone,en,8,11.1,True,4
+MSG-1593,Transfer my SmartHome Hub subscription to a different email address.,request,neutral,medium,0.738,email,fr,10,30.2,True,4
+MSG-1594,My E-Reader Glow battery drains in 3 hours even in standby mode.,technical_issue,negative,critical,0.854,live_chat,fr,12,38.4,True,2
+MSG-1595,Transfer my MusicStream subscription to a different email address.,request,neutral,medium,0.874,email,en,9,42.7,True,5
+MSG-1596,The CloudCam 360 microphone doesn't work during SmartHome Hub calls.,technical_issue,negative,high,0.732,live_chat,en,10,17.2,True,2
+MSG-1597,The CloudCam 360 exceeded my expectations. Great value for $230.00.,feedback_positive,positive,low,0.982,social_media,pt,10,23.4,True,5
+MSG-1598,Can I upgrade my GamePass Pro plan to include Portable Monitor?,inquiry,neutral,low,0.789,social_media,en,11,1.2,True,5
+MSG-1599,Great customer support experience regarding my SmartLock V2. Issue resolved in 15 minutes.,feedback_positive,positive,low,0.84,phone,en,13,52.6,True,5
+MSG-1600,The Portable Monitor exceeded my expectations. Great value for $200.00.,feedback_positive,positive,low,0.852,live_chat,pt,10,52.5,True,5
+MSG-1601,I've contacted support 44 times about my HomeHub Speaker issue with no resolution.,complaint,negative,high,0.786,email,fr,13,65.5,False,
+MSG-1602,My HomeHub Speaker stopped working after the latest CloudSync update.,complaint,negative,high,0.756,email,en,10,55.5,True,2
+MSG-1603,I'm getting error code E21136 when trying to use Smart Thermostat.,technical_issue,negative,high,0.925,live_chat,ar,11,64.3,True,2
+MSG-1604,Been a loyal customer for 35 years. HomeHub Speaker quality never disappoints.,feedback_positive,positive,low,0.943,email,en,12,7.5,True,5
+MSG-1605,My Portable Monitor stopped working after the latest SecureNet VPN update.,complaint,negative,high,0.76,phone,fr,11,47.2,True,3
+MSG-1606,I ordered a HomeHub Speaker in Rose Gold but received it in the wrong color.,complaint,negative,high,0.752,in_app,es,15,66.5,True,1
+MSG-1607,Can't connect my HomeHub Speaker to WiFi after the latest firmware update.,technical_issue,negative,high,0.889,live_chat,en,12,20.7,True,2
+MSG-1608,I want to upgrade my Portable Monitor to the premium version.,request,neutral,medium,0.825,social_media,en,11,52.0,False,
+MSG-1609,Your DroneFlyer Mini broke after just 10 days of use. Totally unacceptable.,complaint,negative,high,0.806,phone,es,12,30.6,False,
+MSG-1610,DataVault integration with HomeHub Speaker stopped working yesterday.,technical_issue,negative,critical,0.865,phone,de,8,16.6,True,3
+MSG-1611,Transfer my DataVault subscription to a different email address.,request,neutral,medium,0.848,social_media,de,9,9.7,True,3
+MSG-1612,Fastest delivery ever! Got my Robot Vacuum X in just 30 days.,feedback_positive,positive,low,0.735,live_chat,en,12,10.0,True,5
+MSG-1613,I'd like to cancel my SecureNet VPN subscription effective immediately.,request,neutral,medium,0.946,email,ar,10,62.7,True,4
+MSG-1614,The AirBuds Max exceeded my expectations. Great value for $597.00.,feedback_positive,positive,low,0.922,phone,en,10,50.3,True,5
+MSG-1615,Delete my account and all associated FitTrack AI data.,request,neutral,medium,0.958,live_chat,en,9,2.4,True,4
+MSG-1616,The quality of Robot Vacuum X has gone downhill. Very disappointed.,complaint,negative,high,0.834,social_media,en,11,11.4,True,3
+MSG-1617,I need to change the shipping address for my E-Reader Glow order.,request,neutral,medium,0.947,in_app,pt,12,58.8,False,
+MSG-1618,I want to upgrade my VR Headset Plus to the premium version.,request,neutral,high,0.749,live_chat,en,12,5.7,True,3
+MSG-1619,Do you offer a student discount on HomeHub Speaker?,inquiry,neutral,medium,0.774,live_chat,de,9,66.9,True,4
+MSG-1620,Terrible customer experience. Waited 51 minutes on hold about my DroneFlyer Mini.,complaint,negative,medium,0.722,email,en,12,25.7,True,3
+MSG-1621,The Forest Green screen on my PowerBank Titan keeps flickering randomly.,technical_issue,negative,high,0.856,in_app,en,11,55.8,True,3
+MSG-1622,I need an invoice for my DroneFlyer Mini purchase of $170.00.,request,neutral,medium,0.959,email,en,11,58.2,True,4
+MSG-1623,The E-Reader Glow microphone doesn't work during GamePass Pro calls.,technical_issue,negative,high,0.817,social_media,en,10,61.6,False,
+MSG-1624,The quality of FitBand Ultra has gone downhill. Very disappointed.,complaint,negative,high,0.937,phone,en,10,10.4,True,3
+MSG-1625,I ordered a AirBuds Max in Forest Green but received it in the wrong color.,complaint,negative,high,0.818,social_media,pt,15,6.5,True,3
+MSG-1626,Been a loyal customer for 8 years. CloudCam 360 quality never disappoints.,feedback_positive,positive,low,0.83,social_media,fr,12,44.7,True,5
+MSG-1627,I want to upgrade my SmartLock V2 to the premium version.,request,neutral,high,0.888,social_media,en,11,46.4,True,3
+MSG-1628,What's the return policy for CloudCam 360 purchased 37 days ago?,inquiry,neutral,medium,0.814,phone,en,11,33.8,False,
+MSG-1629,Your HomeHub Speaker broke after just 50 days of use. Totally unacceptable.,complaint,negative,medium,0.812,email,es,12,43.6,True,3
+MSG-1630,I've contacted support 10 times about my LaptopAir M3 issue with no resolution.,complaint,negative,high,0.873,live_chat,es,13,71.1,False,
+MSG-1631,Your SecureNet VPN has been down for 14 hours and I can't access my account.,complaint,negative,high,0.788,phone,en,15,12.8,True,1
+MSG-1632,Your SmartHome Hub app makes managing my AirBuds Max so easy.,feedback_positive,positive,low,0.944,social_media,en,11,6.7,True,5
+MSG-1633,The Forest Green HomeHub Speaker looks even better in person. Highly recommend.,feedback_positive,positive,low,0.816,live_chat,fr,12,49.9,True,5
+MSG-1634,My Smart Thermostat stopped working after the latest GamePass Pro update.,complaint,negative,high,0.724,social_media,es,11,64.6,True,3
+MSG-1635,Your SecureNet VPN team was incredibly helpful with my Smart Thermostat setup.,feedback_positive,positive,low,0.746,phone,pt,12,15.8,True,5
+MSG-1636,Transfer my StreamMax subscription to a different email address.,request,neutral,medium,0.82,in_app,en,9,26.3,True,4
+MSG-1637,The E-Reader Glow app crashes every time I open PhotoCloud.,technical_issue,negative,critical,0.983,phone,de,10,24.2,True,3
+MSG-1638,I want to upgrade my HomeHub Speaker to the premium version.,request,neutral,high,0.91,phone,en,11,67.5,True,3
+MSG-1639,Your VR Headset Plus broke after just 60 days of use. Totally unacceptable.,complaint,negative,high,0.747,in_app,de,13,32.0,True,2
+MSG-1640,Can you escalate my FitBand Ultra complaint to a manager?,request,neutral,medium,0.831,social_media,ar,10,59.1,False,
+MSG-1641,Your DataVault has been down for 19 hours and I can't access my account.,complaint,negative,medium,0.963,live_chat,en,14,29.9,True,1
+MSG-1642,What payment methods do you accept for Robot Vacuum X?,inquiry,neutral,medium,0.983,live_chat,de,10,14.0,False,
+MSG-1643,Terrible customer experience. Waited 47 minutes on hold about my TabletX 12.,complaint,negative,high,0.782,live_chat,fr,12,51.2,True,3
+MSG-1644,Terrible customer experience. Waited 54 minutes on hold about my Smart Thermostat.,complaint,negative,high,0.727,email,en,12,0.9,True,1
+MSG-1645,The Portable Monitor microphone doesn't work during TechCare Plus calls.,technical_issue,negative,critical,0.785,social_media,en,10,64.7,True,2
+MSG-1646,The Space Gray screen on my E-Reader Glow keeps flickering randomly.,technical_issue,negative,high,0.954,email,pt,11,8.1,True,1
+MSG-1647,Do you offer a student discount on CloudCam 360?,inquiry,neutral,medium,0.935,email,ar,9,29.8,False,
+MSG-1648,The VR Headset Plus I received is completely different from what was advertised.,complaint,negative,high,0.964,social_media,en,13,47.5,True,1
+MSG-1649,Fastest delivery ever! Got my LaptopAir M3 in just 35 days.,feedback_positive,positive,low,0.772,social_media,en,11,2.2,True,4
+MSG-1650,The Smart Thermostat microphone doesn't work during StreamMax calls.,technical_issue,negative,high,0.779,social_media,en,9,52.4,True,2
+MSG-1651,Been a loyal customer for 46 years. FitBand Ultra quality never disappoints.,feedback_positive,positive,low,0.858,phone,fr,12,28.9,True,5
+MSG-1652,The FitBand Ultra exceeded my expectations. Great value for $612.00.,feedback_positive,positive,low,0.837,live_chat,ar,10,32.2,True,5
+MSG-1653,Great customer support experience regarding my AirBuds Max. Issue resolved in 28 minutes.,feedback_positive,positive,low,0.765,email,ar,13,2.5,True,5
+MSG-1654,The CloudCam 360 overheats when running GamePass Pro for more than 23 minutes.,technical_issue,negative,high,0.934,social_media,fr,13,25.8,True,2
+MSG-1655,Fastest delivery ever! Got my HomeHub Speaker in just 1 days.,feedback_positive,positive,low,0.935,phone,pt,11,64.7,True,4
+MSG-1656,Please send me a replacement DroneFlyer Mini in Silver.,request,neutral,medium,0.875,in_app,en,9,46.6,False,
+MSG-1657,Fastest delivery ever! Got my FitBand Ultra in just 52 days.,feedback_positive,positive,low,0.754,phone,en,11,12.4,True,5
+MSG-1658,The FitBand Ultra overheats when running GamePass Pro for more than 19 minutes.,technical_issue,negative,high,0.947,social_media,en,13,29.1,True,2
+MSG-1659,Your LaptopAir M3 broke after just 47 days of use. Totally unacceptable.,complaint,negative,medium,0.87,phone,en,12,22.6,True,3
+MSG-1660,Been a loyal customer for 40 years. LaptopAir M3 quality never disappoints.,feedback_positive,positive,low,0.748,email,en,12,23.3,True,5
+MSG-1661,How long does shipping take for the AirBuds Max to Mumbai?,inquiry,neutral,low,0.958,email,en,11,3.2,True,4
+MSG-1662,I've contacted support 18 times about my PowerBank Titan issue with no resolution.,complaint,negative,high,0.754,phone,en,13,62.1,False,
+MSG-1663,Please refund the $504.00 charged for SmartLock V2 order #46771.,request,neutral,high,0.745,phone,en,10,55.2,True,4
+MSG-1664,The Arctic White screen on my VR Headset Plus keeps flickering randomly.,technical_issue,negative,high,0.941,live_chat,ar,12,13.6,True,2
+MSG-1665,Is Smart Thermostat eligible for the current promotion?,inquiry,neutral,low,0.749,live_chat,de,8,9.5,True,5
+MSG-1666,Apply the promo code SAVE13 to my SmartLock V2 order.,request,neutral,medium,0.895,social_media,pt,10,10.7,True,3
+MSG-1667,Can you tell me if the Portable Monitor is compatible with PhotoCloud?,inquiry,neutral,low,0.792,phone,es,12,66.7,True,4
+MSG-1668,Can you escalate my HomeHub Speaker complaint to a manager?,request,neutral,high,0.746,social_media,es,10,46.7,False,
+MSG-1669,Do you offer a student discount on FitBand Ultra?,inquiry,neutral,medium,0.749,in_app,fr,9,3.7,True,3
+MSG-1670,What's the return policy for SmartWatch Pro purchased 18 days ago?,inquiry,neutral,low,0.958,social_media,en,11,50.4,False,
+MSG-1671,Delete my account and all associated DataVault data.,request,neutral,high,0.798,social_media,pt,8,0.3,True,5
+MSG-1672,Switched to your HomeHub Speaker from a competitor and couldn't be happier.,feedback_positive,positive,low,0.836,email,ar,12,1.6,True,5
+MSG-1673,I was charged $500.00 twice for the same VR Headset Plus. Fix this immediately.,complaint,negative,medium,0.75,live_chat,ar,14,59.0,True,2
+MSG-1674,The HomeHub Speaker microphone doesn't work during StreamMax calls.,technical_issue,negative,high,0.789,social_media,de,9,35.1,True,3
+MSG-1675,Your FitTrack AI has been down for 50 hours and I can't access my account.,complaint,negative,high,0.917,social_media,de,15,1.6,False,
+MSG-1676,How long does shipping take for the PowerBank Titan to Toronto?,inquiry,neutral,low,0.969,email,en,11,27.3,True,4
+MSG-1677,Bluetooth pairing fails between Portable Monitor and my other devices.,technical_issue,negative,high,0.975,in_app,fr,10,20.0,True,1
+MSG-1678,The E-Reader Glow microphone doesn't work during FitTrack AI calls.,technical_issue,negative,high,0.982,social_media,en,10,36.0,True,3
+MSG-1679,How do I track my CloudCam 360 order placed 43 days ago?,inquiry,neutral,medium,0.724,email,en,12,3.0,True,3
+MSG-1680,I ordered a CloudCam 360 in Sunset Orange but received it in the wrong color.,complaint,negative,medium,0.957,live_chat,es,15,56.6,True,1
+MSG-1681,The E-Reader Glow exceeded my expectations. Great value for $955.00.,feedback_positive,positive,low,0.972,email,ar,10,18.0,True,5
+MSG-1682,Delete my account and all associated TechCare Plus data.,request,neutral,medium,0.903,in_app,fr,9,23.3,True,4
+MSG-1683,The TabletX 12 exceeded my expectations. Great value for $327.00.,feedback_positive,positive,low,0.77,phone,de,10,56.4,True,5
+MSG-1684,I was charged $972.00 twice for the same SmartLock V2. Fix this immediately.,complaint,negative,medium,0.834,phone,ar,13,29.6,True,3
+MSG-1685,The quality of AirBuds Max has gone downhill. Very disappointed.,complaint,negative,high,0.888,social_media,en,10,64.8,True,1
+MSG-1686,I need to change the shipping address for my TabletX 12 order.,request,neutral,medium,0.793,email,en,12,71.0,True,4
+MSG-1687,The Robot Vacuum X app crashes every time I open SmartHome Hub.,technical_issue,negative,high,0.92,in_app,de,12,3.9,True,3
+MSG-1688,How do I track my E-Reader Glow order placed 15 days ago?,inquiry,neutral,low,0.938,social_media,en,12,44.9,True,3
+MSG-1689,I've been waiting 34 days for my HomeHub Speaker and it still hasn't arrived.,complaint,negative,high,0.945,phone,en,14,32.0,True,1
+MSG-1690,Your StreamMax app makes managing my LaptopAir M3 so easy.,feedback_positive,positive,low,0.753,phone,pt,10,10.6,True,4
+MSG-1691,How long does shipping take for the Robot Vacuum X to Mumbai?,inquiry,neutral,medium,0.798,phone,en,12,7.3,False,
+MSG-1692,The Arctic White TabletX 12 looks even better in person. Highly recommend.,feedback_positive,positive,low,0.752,social_media,ar,12,28.1,True,5
+MSG-1693,Terrible customer experience. Waited 9 minutes on hold about my LaptopAir M3.,complaint,negative,high,0.855,live_chat,es,12,62.0,True,2
+MSG-1694,The SmartLock V2 overheats when running TechCare Plus for more than 42 minutes.,technical_issue,negative,critical,0.844,in_app,es,13,61.8,True,2
+MSG-1695,Your PhotoCloud app makes managing my AirBuds Max so easy.,feedback_positive,positive,low,0.79,in_app,de,10,50.3,True,5
+MSG-1696,GPS accuracy on my Robot Vacuum X is off by 3 meters.,technical_issue,negative,high,0.972,email,ar,12,34.4,True,2
+MSG-1697,I was charged $80.00 twice for the same E-Reader Glow. Fix this immediately.,complaint,negative,medium,0.949,email,en,13,5.3,True,3
+MSG-1698,I was charged $151.00 twice for the same PowerBank Titan. Fix this immediately.,complaint,negative,high,0.853,live_chat,en,13,48.9,True,2
+MSG-1699,Can I upgrade my MusicStream plan to include Robot Vacuum X?,inquiry,neutral,low,0.729,email,en,11,10.2,True,4
+MSG-1700,Apply the promo code SAVE12 to my SmartLock V2 order.,request,neutral,medium,0.943,live_chat,pt,10,36.1,True,4
+MSG-1701,I ordered a TabletX 12 in Arctic White but received it in the wrong color.,complaint,negative,medium,0.855,email,en,15,3.8,True,1
+MSG-1702,Do you offer a student discount on Portable Monitor?,inquiry,neutral,medium,0.875,email,de,9,61.4,True,5
+MSG-1703,I'm getting error code E95620 when trying to use SmartLock V2.,technical_issue,negative,high,0.834,email,es,11,14.5,True,2
+MSG-1704,How do I track my Robot Vacuum X order placed 16 days ago?,inquiry,neutral,low,0.985,email,es,13,68.4,True,5
+MSG-1705,Do you offer a student discount on E-Reader Glow?,inquiry,neutral,low,0.849,social_media,fr,9,56.3,True,3
+MSG-1706,I've been waiting 39 days for my Smart Thermostat and it still hasn't arrived.,complaint,negative,high,0.85,email,de,14,27.9,False,
+MSG-1707,Can I upgrade my SecureNet VPN plan to include E-Reader Glow?,inquiry,neutral,low,0.772,social_media,es,11,31.5,True,4
+MSG-1708,What's the return policy for DroneFlyer Mini purchased 27 days ago?,inquiry,neutral,low,0.939,email,en,11,5.6,True,5
+MSG-1709,Do you offer a student discount on SmartWatch Pro?,inquiry,neutral,low,0.849,in_app,fr,9,8.9,True,3
+MSG-1710,The new FitBand Ultra update is fantastic. Love the improvements.,feedback_positive,positive,low,0.931,social_media,es,10,21.1,True,5
+MSG-1711,My PowerBank Titan battery drains in 7 hours even in standby mode.,technical_issue,negative,critical,0.796,in_app,ar,12,14.7,True,3
+MSG-1712,Do you offer a student discount on E-Reader Glow?,inquiry,neutral,low,0.977,phone,ar,9,1.6,True,4
+MSG-1713,Great customer support experience regarding my TabletX 12. Issue resolved in 4 minutes.,feedback_positive,positive,low,0.824,email,fr,13,3.3,True,5
+MSG-1714,I need to change the shipping address for my VR Headset Plus order.,request,neutral,medium,0.966,social_media,en,13,54.3,True,4
+MSG-1715,The Forest Green screen on my Smart Thermostat keeps flickering randomly.,technical_issue,negative,high,0.869,email,en,11,68.6,True,3
+MSG-1716,Delete my account and all associated GamePass Pro data.,request,neutral,medium,0.965,live_chat,en,9,20.3,True,3
+MSG-1717,How do I track my CloudCam 360 order placed 26 days ago?,inquiry,neutral,medium,0.931,social_media,en,12,58.4,True,3
+MSG-1718,Great customer support experience regarding my VR Headset Plus. Issue resolved in 55 minutes.,feedback_positive,positive,low,0.846,phone,en,14,69.5,True,5
+MSG-1719,The Coral Red screen on my TabletX 12 keeps flickering randomly.,technical_issue,negative,high,0.769,email,ar,11,55.2,True,2
+MSG-1720,I need to change the shipping address for my FitBand Ultra order.,request,neutral,medium,0.905,email,en,12,62.0,True,3
+MSG-1721,The Space Gray screen on my SmartWatch Pro keeps flickering randomly.,technical_issue,negative,critical,0.783,email,pt,11,7.9,False,
+MSG-1722,My AirBuds Max stopped working after the latest DataVault update.,complaint,negative,medium,0.956,email,fr,10,10.4,True,3
+MSG-1723,Fastest delivery ever! Got my TabletX 12 in just 19 days.,feedback_positive,positive,low,0.971,email,en,11,65.7,True,4
+MSG-1724,Terrible customer experience. Waited 46 minutes on hold about my FitBand Ultra.,complaint,negative,high,0.822,social_media,en,12,42.0,True,3
+MSG-1725,Your Portable Monitor broke after just 33 days of use. Totally unacceptable.,complaint,negative,high,0.936,email,de,12,43.8,False,
+MSG-1726,The Space Gray FitBand Ultra looks even better in person. Highly recommend.,feedback_positive,positive,low,0.805,live_chat,ar,12,70.0,True,5
+MSG-1727,Delete my account and all associated TechCare Plus data.,request,neutral,medium,0.782,phone,pt,9,56.6,True,4
+MSG-1728,The Coral Red screen on my Smart Thermostat keeps flickering randomly.,technical_issue,negative,high,0.752,social_media,es,11,29.5,True,3
+MSG-1729,Can you escalate my Portable Monitor complaint to a manager?,request,neutral,high,0.921,in_app,ar,10,9.2,True,5
+MSG-1730,I was charged $557.00 twice for the same AirBuds Max. Fix this immediately.,complaint,negative,medium,0.908,live_chat,fr,13,17.5,True,1
+MSG-1731,Fastest delivery ever! Got my DroneFlyer Mini in just 7 days.,feedback_positive,positive,low,0.966,social_media,ar,11,45.5,True,5
+MSG-1732,Been a loyal customer for 47 years. E-Reader Glow quality never disappoints.,feedback_positive,positive,low,0.88,live_chat,en,12,26.7,True,5
+MSG-1733,I want to upgrade my LaptopAir M3 to the premium version.,request,neutral,medium,0.812,social_media,ar,11,40.7,False,
+MSG-1734,Fastest delivery ever! Got my TabletX 12 in just 10 days.,feedback_positive,positive,low,0.957,social_media,pt,11,22.7,True,5
+MSG-1735,The AirBuds Max exceeded my expectations. Great value for $464.00.,feedback_positive,positive,low,0.923,social_media,pt,10,66.6,True,5
+MSG-1736,What's the return policy for FitBand Ultra purchased 49 days ago?,inquiry,neutral,low,0.936,in_app,de,11,0.6,True,4
+MSG-1737,Do you offer a student discount on DroneFlyer Mini?,inquiry,neutral,low,0.96,email,ar,9,35.6,True,4
+MSG-1738,Your TechCare Plus team was incredibly helpful with my PowerBank Titan setup.,feedback_positive,positive,low,0.842,social_media,en,12,53.0,True,4
+MSG-1739,Absolutely love my new TabletX 12! Best purchase I've made in 21 months.,feedback_positive,positive,low,0.786,email,en,13,42.3,True,5
+MSG-1740,Do you offer a student discount on LaptopAir M3?,inquiry,neutral,low,0.977,live_chat,en,9,61.7,True,3
+MSG-1741,Please refund the $742.00 charged for LaptopAir M3 order #15087.,request,neutral,high,0.823,social_media,pt,10,42.1,True,5
+MSG-1742,Can't connect my Portable Monitor to WiFi after the latest firmware update.,technical_issue,negative,critical,0.816,phone,pt,12,34.7,True,2
+MSG-1743,I've contacted support 16 times about my TabletX 12 issue with no resolution.,complaint,negative,high,0.898,phone,es,13,25.1,False,
+MSG-1744,What's the warranty period for the Robot Vacuum X?,inquiry,neutral,medium,0.778,social_media,de,9,61.3,False,
+MSG-1745,My Smart Thermostat stopped working after the latest FitTrack AI update.,complaint,negative,medium,0.79,phone,fr,11,4.0,False,
+MSG-1746,What payment methods do you accept for VR Headset Plus?,inquiry,neutral,low,0.93,in_app,en,10,8.0,True,4
+MSG-1747,The SmartWatch Pro microphone doesn't work during CloudSync calls.,technical_issue,negative,critical,0.86,email,en,9,26.1,True,2
+MSG-1748,The Robot Vacuum X overheats when running DataVault for more than 52 minutes.,technical_issue,negative,high,0.918,live_chat,de,13,67.7,True,1
+MSG-1749,The SmartLock V2 app crashes every time I open SecureNet VPN.,technical_issue,negative,high,0.729,live_chat,en,11,54.0,False,
+MSG-1750,I need to change the shipping address for my Robot Vacuum X order.,request,neutral,medium,0.883,email,de,13,11.0,False,
+MSG-1751,Is Robot Vacuum X eligible for the current promotion?,inquiry,neutral,medium,0.747,phone,en,9,69.8,False,
+MSG-1752,Please send me a replacement TabletX 12 in Rose Gold.,request,neutral,high,0.786,in_app,de,10,1.3,False,
+MSG-1753,I want to upgrade my Smart Thermostat to the premium version.,request,neutral,high,0.82,live_chat,ar,11,40.6,True,4
+MSG-1754,What's the return policy for AirBuds Max purchased 14 days ago?,inquiry,neutral,low,0.829,email,en,11,60.4,True,3
+MSG-1755,Please send me a replacement TabletX 12 in Forest Green.,request,neutral,medium,0.83,in_app,pt,10,0.5,True,5
+MSG-1756,Bluetooth pairing fails between PowerBank Titan and my other devices.,technical_issue,negative,critical,0.835,email,en,10,5.7,True,1
+MSG-1757,How do I track my E-Reader Glow order placed 13 days ago?,inquiry,neutral,medium,0.889,phone,en,12,37.8,True,5
+MSG-1758,I'd like to cancel my TechCare Plus subscription effective immediately.,request,neutral,high,0.872,in_app,es,10,12.0,True,4
+MSG-1759,GamePass Pro integration with SmartLock V2 stopped working yesterday.,technical_issue,negative,critical,0.862,live_chat,en,9,59.7,True,2
+MSG-1760,I need to change the shipping address for my HomeHub Speaker order.,request,neutral,medium,0.844,email,de,12,6.9,False,
+MSG-1761,Can't connect my AirBuds Max to WiFi after the latest firmware update.,technical_issue,negative,high,0.797,live_chat,en,12,65.6,False,
+MSG-1762,My PowerBank Titan battery drains in 60 hours even in standby mode.,technical_issue,negative,critical,0.88,live_chat,en,12,7.5,True,2
+MSG-1763,Do you offer a student discount on DroneFlyer Mini?,inquiry,neutral,medium,0.928,social_media,pt,9,42.7,True,5
+MSG-1764,How long does shipping take for the SmartWatch Pro to Riyadh?,inquiry,neutral,low,0.956,live_chat,ar,11,23.3,True,4
+MSG-1765,Bluetooth pairing fails between TabletX 12 and my other devices.,technical_issue,negative,critical,0.929,phone,fr,10,50.9,True,2
+MSG-1766,TechCare Plus integration with SmartLock V2 stopped working yesterday.,technical_issue,negative,high,0.871,live_chat,fr,9,35.3,True,1
+MSG-1767,The VR Headset Plus overheats when running FitTrack AI for more than 2 minutes.,technical_issue,negative,critical,0.778,social_media,fr,14,40.3,True,3
+MSG-1768,The Portable Monitor exceeded my expectations. Great value for $384.00.,feedback_positive,positive,low,0.809,in_app,en,10,65.6,True,5
+MSG-1769,I'm getting error code E62205 when trying to use DroneFlyer Mini.,technical_issue,negative,high,0.889,social_media,en,11,69.9,True,3
+MSG-1770,Bluetooth pairing fails between LaptopAir M3 and my other devices.,technical_issue,negative,high,0.885,social_media,en,10,51.4,True,2
+MSG-1771,The quality of Robot Vacuum X has gone downhill. Very disappointed.,complaint,negative,high,0.986,in_app,en,11,14.1,True,2
+MSG-1772,The Portable Monitor exceeded my expectations. Great value for $29.00.,feedback_positive,positive,low,0.772,email,en,10,54.8,True,5
+MSG-1773,Your PhotoCloud team was incredibly helpful with my HomeHub Speaker setup.,feedback_positive,positive,low,0.804,live_chat,en,11,40.4,True,4
+MSG-1774,Been a loyal customer for 60 years. DroneFlyer Mini quality never disappoints.,feedback_positive,positive,low,0.77,live_chat,en,12,42.6,True,4
+MSG-1775,Can you tell me if the FitBand Ultra is compatible with FitTrack AI?,inquiry,neutral,low,0.804,live_chat,en,13,27.4,True,4
+MSG-1776,The DroneFlyer Mini exceeded my expectations. Great value for $870.00.,feedback_positive,positive,low,0.79,live_chat,en,10,31.7,True,4
+MSG-1777,I want to upgrade my DroneFlyer Mini to the premium version.,request,neutral,medium,0.976,live_chat,en,11,42.2,True,4
+MSG-1778,I want to upgrade my VR Headset Plus to the premium version.,request,neutral,medium,0.859,social_media,en,12,15.3,True,5
+MSG-1779,Absolutely love my new Portable Monitor! Best purchase I've made in 43 months.,feedback_positive,positive,low,0.807,phone,pt,13,40.6,True,4
+MSG-1780,Your FitTrack AI team was incredibly helpful with my VR Headset Plus setup.,feedback_positive,positive,low,0.967,email,en,13,22.1,True,5
+MSG-1781,Can't connect my Smart Thermostat to WiFi after the latest firmware update.,technical_issue,negative,critical,0.848,phone,fr,12,17.6,True,3
+MSG-1782,Been a loyal customer for 3 years. VR Headset Plus quality never disappoints.,feedback_positive,positive,low,0.929,phone,fr,13,68.7,True,5
+MSG-1783,I'm getting error code E78692 when trying to use HomeHub Speaker.,technical_issue,negative,high,0.755,in_app,en,11,24.1,True,1
+MSG-1784,The Smart Thermostat exceeded my expectations. Great value for $184.00.,feedback_positive,positive,low,0.958,live_chat,en,10,21.8,True,4
+MSG-1785,Is the Robot Vacuum X available in Sunset Orange?,inquiry,neutral,low,0.721,in_app,es,9,11.6,True,5
+MSG-1786,The E-Reader Glow overheats when running DataVault for more than 43 minutes.,technical_issue,negative,high,0.806,phone,en,12,67.3,False,
+MSG-1787,The Coral Red Robot Vacuum X looks even better in person. Highly recommend.,feedback_positive,positive,low,0.78,in_app,en,13,43.9,True,5
+MSG-1788,Fastest delivery ever! Got my PowerBank Titan in just 40 days.,feedback_positive,positive,low,0.855,live_chat,en,11,3.3,True,5
+MSG-1789,Please refund the $169.00 charged for PowerBank Titan order #50775.,request,neutral,high,0.79,phone,en,10,68.8,True,4
+MSG-1790,Transfer my TechCare Plus subscription to a different email address.,request,neutral,medium,0.937,email,fr,10,1.0,True,4
+MSG-1791,The TabletX 12 microphone doesn't work during PhotoCloud calls.,technical_issue,negative,high,0.79,social_media,fr,9,45.7,False,
+MSG-1792,PhotoCloud integration with Smart Thermostat stopped working yesterday.,technical_issue,negative,high,0.925,phone,de,8,62.7,True,2
+MSG-1793,Your GamePass Pro has been down for 13 hours and I can't access my account.,complaint,negative,medium,0.796,email,ar,15,8.8,False,
+MSG-1794,I want to upgrade my SmartWatch Pro to the premium version.,request,neutral,high,0.792,email,de,11,21.2,False,
+MSG-1795,I ordered a PowerBank Titan in Midnight Black but received it in the wrong color.,complaint,negative,high,0.767,phone,en,15,38.6,True,2
+MSG-1796,Delete my account and all associated SmartHome Hub data.,request,neutral,medium,0.844,in_app,pt,9,5.6,True,3
+MSG-1797,Is E-Reader Glow eligible for the current promotion?,inquiry,neutral,low,0.828,social_media,fr,8,13.3,True,3
+MSG-1798,Please refund the $325.00 charged for Smart Thermostat order #77376.,request,neutral,medium,0.821,live_chat,en,10,34.1,False,
+MSG-1799,The CloudCam 360 exceeded my expectations. Great value for $423.00.,feedback_positive,positive,low,0.83,social_media,en,10,1.4,True,5
